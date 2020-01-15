@@ -18,44 +18,35 @@ h3
     font-size: 20px
     color: #C4C4C4
 
-section
+section.content
     display: flex
     justify-content: center
     align-items: center
     background-color: lightblue
     width: 100%
-    height: 100vh
+    height: 700px
     font-size: 50px
     color: white
 
-input
+nav
+    position: fixed
+    bottom: 0
     width: 100%
-    height: 35px
-    background-color: white
-    padding-left: 15px
-    border-radius: 5px
-    margin-bottom: 15px
-    opacity: 0.1
-    font-size: 25px
+    background-color: #212121
 
-    ::placeholder
-        color: lightgray
-        opacity: 1
+    ul
+        position: sticky
+        bottom: 0
+        padding: 0
+        list-style: none
+        display: flex
+        justify-content: space-around
 
-.searchIco
-    color: white
-
-ul
-    padding: 0
-    list-style: none
-    display: flex
-    justify-content: space-around
-
-    li
-        box-sizing: border-box
-        svg
-            width: 20px
-            height: 20px
-            color: white
+        li
+            box-sizing: border-box
+            svg
+                width: 35px
+                height: 35px
+                color: white
             &:hover
                 border-bottom: solid 5px white
