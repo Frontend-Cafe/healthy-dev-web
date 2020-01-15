@@ -4,15 +4,22 @@
     "react-app",
     "plugin:prettier/recommended",
     "plugin:cypress/recommended",
-    "prettier/react"
+    "prettier/react",
+    "plugin:import/errors",
+    "plugin:jsx-a11y/recommended"
   ],
-  "plugins": ["cypress", "react-hooks"],
+  "plugins": ["cypress", "react-hooks", "jsx-a11y"],
   "env": {
     "cypress/globals": true
   },
   "settings": {
     "react": {
       "version": "detect"
+    },     
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
     }
   },
   "rules": {
