@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        
         <Route exact path="/" />
       </Router>
     </div>
