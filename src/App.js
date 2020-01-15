@@ -1,12 +1,14 @@
 import React from "react";
 
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 
 import "./App.css";
+import { TipsLayout } from "./components/TipsLayout/TipsLayout";
 
 function App() {
   return (
     <div className="App">
+      {/*
       <header className="App-header">
         <img alt="logo" className="App-logo" src={logo} />
         <p>
@@ -16,6 +18,8 @@ function App() {
           Learn React
         </a>
       </header>
+      */}
+      <TipsLayout sectionTitle="Fitness Tips" shouldHideSearchBar={false} />
     </div>
   );
 }
