@@ -1,0 +1,36 @@
+
+// .card {
+//   background: #212121;
+//   margin: 0 0.5em 0 0.5em;
+//   width: 163px;
+//   z-index: 1;
+// }
+
+.media {
+  height:65%;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  z-index: 1;
+  height: 33px;
+  width: 33px;
+  margin: 10px;
+}
+
+.title {
+  height: 38px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.04em;
+}
+
+.cardText {
+  padding: 4px 20px 0px 0px;
+  height:20px;
+}
