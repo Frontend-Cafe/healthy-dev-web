@@ -1,22 +1,28 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { create } from "jss";
+import { StylesProvider, jssPreset } from "@material-ui/core/styles";
 
-import logo from "./logo.svg";
+import "./utils/styles/styles.scss";
+import tipState from "./mockData";
+import ListTips from "./components/ListTips/ListTips.jsx";
 
-import "./App.css";
+const jss = create({
+  ...jssPreset(),
+  // Define a custom insertion point that JSS will look for when injecting the styles into the DOM.
+  insertionPoint: "jss-insertion-point",
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img alt="logo" className="App-logo" src={logo} />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.{" "}
-        </p>
-        <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StylesProvider jss={jss}>
+      <div className="App">
+        <Router>
+          <Route exact path="/" />
+          <ListTips tipState={tipState} />
+        </Router>
+      </div>
+    </StylesProvider>
   );
 }
 
