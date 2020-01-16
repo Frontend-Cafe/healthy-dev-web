@@ -17,9 +17,11 @@ const App = () => (
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path={ROUTES.dashboard}>
-            <TipList tipStates={tipStates} />
-          </Route>
+          <TipsLayout>
+            <Route exact path={ROUTES.dashboard}>
+              <TipList tipStates={tipStates} />
+            </Route>
+          </TipsLayout>
         </Switch>
       </Router>
     </div>
