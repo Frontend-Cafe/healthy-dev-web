@@ -1,0 +1,24 @@
+@import ../../styles/variables
+
+nav
+    position: fixed
+    bottom: 0
+    width: 100%
+    background-color: $background-color
+
+    ul
+        position: sticky
+        bottom: 0
+        padding: 0
+        list-style: none
+        display: flex
+        justify-content: space-around
+
+        li
+            box-sizing: border-box
+            svg
+                width: 35px
+                height: 35px
+                color: white
+            &:hover
+                border-bottom: solid 5px white
