@@ -1,8 +1,6 @@
 import React from "react";
 import { Avatar, Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 
-// import "./Tip.scss";
-
 const Tip = ({ tipState: { avatar, media, title } }) => {
   return (
     <Card square className="card" elevation={0}>
@@ -16,5 +14,6 @@ const Tip = ({ tipState: { avatar, media, title } }) => {
     </Card>
   );
 };
+// TODO: Add alt to avatar and title to image. Create in mockdata.
 
 export default Tip;
