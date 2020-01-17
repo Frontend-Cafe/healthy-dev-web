@@ -4,10 +4,11 @@ import { create } from "jss";
 import { StylesProvider, jssPreset } from "@material-ui/core/styles";
 
 import "./styles/styles.scss";
-import tipState from "./mockData";
-import ListTips from "./components/ListTips/ListTips.jsx";
+import tipStates from "./mockData";
+import TipList from "./components/ListTips/TipList.jsx";
 
 const jss = create({
+  // Necessary to override Material IU styles.
   ...jssPreset(),
   // Define a custom insertion point that JSS will look for when injecting the styles into the DOM.
   insertionPoint: document.getElementById("jss-insertion-point"),
@@ -19,7 +20,7 @@ function App() {
       <div className="App">
         <Router>
           <Route exact path="/" />
-          <ListTips tipState={tipState} />
+          <TipList tipStates={tipStates} />
         </Router>
       </div>
     </StylesProvider>
