@@ -4,7 +4,7 @@ import { create } from "jss";
 import { StylesProvider, jssPreset } from "@material-ui/core/styles";
 
 import "./styles/styles.scss";
-import tipStates from "./mockData";
+import mockData from "./mockData";
 import TipList from "./components/ListTips/TipList.jsx";
 
 const jss = create({
@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <Router>
           <Route exact path="/" />
-          <TipList tipStates={tipStates} />
+          <TipList tipStates={mockData} />
         </Router>
       </div>
     </StylesProvider>
