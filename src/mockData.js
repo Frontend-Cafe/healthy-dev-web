@@ -1,4 +1,5 @@
-const tipState = [
+// Change to JSON to prepare for fetching data later.
+const tipStates = [
   {
     title: "Does diet influence mental health?",
     media: "https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327422/woman-carrying-vegetables.jpg",
@@ -50,4 +51,4 @@ const tipState = [
   },
 ];
 
-export default tipState;
+export default tipStates;
