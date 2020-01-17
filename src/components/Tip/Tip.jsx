@@ -18,6 +18,4 @@ const Tip = ({ avatar, media, title }) => (
   </Card>
 );
 
-// TODO: Add alt to avatar and title to image. Create in mockdata.
-
 export default Tip;
