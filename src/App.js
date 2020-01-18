@@ -19,7 +19,7 @@ function App() {
         </a>
       </header>
       */}
-      <TipsLayout sectionTitle="Fitness Tips">CONTENT</TipsLayout>
+      <TipsLayout sectionTitle="Fitness Tips" />
     </div>
   );
 }
