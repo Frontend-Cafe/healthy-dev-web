@@ -1,19 +1,18 @@
 import React from "react";
-
+//style
 import "./TipsLayout.sass";
-import { BottomNavigation } from "../BottomNavigation/BottomNavigation";
-import { SearchBar } from "../SearchBar/SearchBar";
+//components
+import { Container } from "@material-ui/core";
 
-export const TipsLayout = ({ shouldHideSearchBar, children, sectionTitle }) => {
-    return (
-        <>
-            <header>
-                <h1>Healthy Dev App </h1>
-                {!shouldHideSearchBar && <SearchBar />}
-                <h3>{sectionTitle}</h3>
-            </header>
-            <section className="content">{children}</section>
-            <BottomNavigation />
-        </>
-    );
+import { Header } from "../Header/Header";
+import { BottomNavbar } from "../BottomNavigation/BottomNavbar";
+
+export const TipsLayout = ({ searchBarIsVisible, children, sectionTitle }) => {
+  return (
+    <Container className="container" color="primary-dark">
+      <Header searchBarIsvisible={searchBarIsVisible} sectionTitle={sectionTitle} />
+      <Container className="content">{children}</Container>
+      <BottomNavbar />
+    </Container>
+  );
 };
