@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../utils/styles/Login.css";
-import { FilledInput } from "@material-ui/core";
 
 function Login() {
   return (
@@ -13,11 +12,7 @@ function Login() {
         <form action="">
           <input className="input__info" placeholder="Email" type="email" />
           <p className="assistive_text">Assistive text</p>
-          <input
-            className="input__info"
-            placeholder="Password"
-            type="password"
-          />
+          <input className="input__info" placeholder="Password" type="password" />
           <p className="assistive_text">Assistive text</p>
           <input className="btn_submit" type="submit" value="LOGIN" />
           <Link className="forgot_pass" to={"/"}>
