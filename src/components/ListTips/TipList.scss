@@ -22,50 +22,50 @@
 }
 
 .card {
-  &-1 {
+  &-0 {
     grid-area: a;
     .media {
       height: 50vh;
     }
   }
-  &-2 {
+  &-1 {
     grid-area: b;
     .media {
       height: 25vh;
     }
   }
-  &-3 {
+  &-2 {
     grid-area: c;
     .media {
       height: 45vh;
     }
   }
-  &-4 {
+  &-3 {
     grid-area: d;
 
     .media {
       height: 45vh;
     }
   }
-  &-5 {
+  &-4 {
     grid-area: e;
     .media {
       height: 41vh;
     }
   }
-  &-6 {
+  &-5 {
     grid-area: f;
     .media {
       height: 41vh;
     }
   }
-  &-7 {
+  &-6 {
     grid-area: g;
     .media {
       height: 25vh;
     }
   }
-  &-8 {
+  &-7 {
     grid-area: h;
     .media {
       height: 50vh;
