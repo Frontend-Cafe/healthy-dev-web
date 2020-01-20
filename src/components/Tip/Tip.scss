@@ -1,30 +1,31 @@
 .card {
-  background: $bg-color;
-  align-self: start;
-  justify-self: stretch;
-}
+  .MuiPaper-root {
+    background-color: #212121;
+    color: #ffffff;
+    align-self: start;
+    justify-self: stretch;
+  }
 
-.avatar {
-  position: absolute;
-  height: 5em;
-  width: 5em;
-  margin: 1.2em;
-}
-
-.title {
-  color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.3em;
-  line-height: 1.1em;
-  letter-spacing: -0.04em;
-}
-
-.cardText {
-  padding: 0.5em 6em 0 0;
-}
-
-.MuiCardContent-root:last-child {
-  padding-bottom: 0px;
+  .MuiAvatar-root {
+    position: absolute;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 1.2em;
+  }
+  .title h2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.1em;
+    letter-spacing: -0.04em;
+  }
+  .MuiCardContent-root {
+    padding: 0.5em 4em 0 0;
+    background-color: #212121;
+  }
+  .MuiCardContent-root:last-child {
+    padding-bottom: 0px;
+  }
 }

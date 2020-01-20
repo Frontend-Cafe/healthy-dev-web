@@ -1,29 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { create } from "jss";
-import { StylesProvider, jssPreset } from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/core";
 
+import { theme } from "./styles/theme";
 import "./styles/styles.scss";
 import tipStates from "./mockData";
 import TipList from "./components/ListTips/TipList.jsx";
 
-const jss = create({
-  // Necessary to override Material IU styles.
-  ...jssPreset(),
-  // Define a custom insertion point that JSS will look for when injecting the styles into the DOM.
-  insertionPoint: document.getElementById("jss-insertion-point"),
-});
-
 function App() {
   return (
-    <StylesProvider jss={jss}>
+    <ThemeProvider theme={theme}>
       <div className="App">
         <Router>
           <Route exact path="/" />
           <TipList tipStates={tipStates} />
         </Router>
       </div>
-    </StylesProvider>
+    </ThemeProvider>
   );
 }
 
