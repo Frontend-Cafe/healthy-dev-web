@@ -19,6 +19,7 @@
   background-color: #212121;
   max-height: 300vh;
   width: 100vw;
+  text-align: left;
 }
 
 .card {
@@ -50,13 +51,13 @@
   &-4 {
     grid-area: e;
     .media {
-      height: 41vh;
+      height: 40vh;
     }
   }
   &-5 {
     grid-area: f;
     .media {
-      height: 41vh;
+      height: 45vh;
     }
   }
   &-6 {
@@ -68,7 +69,7 @@
   &-7 {
     grid-area: h;
     .media {
-      height: 50vh;
+      height: 45vh;
     }
   }
 }

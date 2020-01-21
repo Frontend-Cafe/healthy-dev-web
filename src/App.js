@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core";
 
 import { theme } from "./styles/theme";
-import "./styles/styles.scss";
+import "./App.scss";
 import tipStates from "./mockData";
 import TipList from "./components/ListTips/TipList.jsx";
 
