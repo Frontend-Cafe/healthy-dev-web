@@ -1,4 +1,8 @@
 import React from "react";
+
+//CSS
+import "./Tip.scss";
+// Material IU components
 import { Avatar, Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 
 const Tip = ({ tipState: { avatar, media, title } }) => (
