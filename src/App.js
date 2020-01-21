@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core";
 
-import { theme } from "./styles/theme";
+import tipStates from "./lib/mockData";
 import "./App.scss";
-import tipStates from "./mockData";
+import { theme } from "./styles/theme";
 import TipList from "./components/ListTips/TipList.jsx";
 
 function App() {
