@@ -3,9 +3,9 @@ import React from "react";
 import { ThemeProvider } from "@material-ui/core";
 import TipsLayout from "components/TipsLayout/TipsLayout";
 
-import { theme } from "./styles/theme";
+import tipStates from "./lib/mockData";
 import "./App.scss";
-import tipStates from "./mockData";
+import { theme } from "./styles/theme";
 import TipList from "./components/ListTips/TipList.jsx";
 
 const App = () => (
