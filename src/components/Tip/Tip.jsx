@@ -1,5 +1,4 @@
 import React from "react";
-
 //CSS
 import "./Tip.scss";
 // Material IU components
