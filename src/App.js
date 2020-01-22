@@ -1,8 +1,9 @@
 import React from "react";
-//components
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core";
 import TipsLayout from "components/TipsLayout/TipsLayout";
 
+import { ROUTES } from "./lib/routes";
 import tipStates from "./lib/mockData";
 import "./App.scss";
 import { theme } from "./styles/theme";
@@ -13,8 +14,11 @@ const App = () => (
     <div className="App">
       <TipsLayout sectionTitle="Fitness Tips" />
       <Router>
-        <Route exact path="/" />
-        <TipList tipStates={tipStates} />
+        <Switch>
+          <Route exact path={ROUTES.dashboard}>
+            <TipList tipStates={tipStates} />
+          </Route>
+        </Switch>
       </Router>
     </div>
   </ThemeProvider>
