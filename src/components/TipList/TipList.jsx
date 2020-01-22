@@ -6,9 +6,9 @@ import Tip from "../Tip/Tip.jsx";
 
 const TipList = ({ tipStates }) => (
   <div className="grid-container">
-    {tipStates.map((tipState, index) => (
-      <div key={tipState.id} className={`card card-${index}`}>
-        <Tip tipState={tipState} />
+    {tipStates.map(({ avatar, media, title, id }, index) => (
+      <div key={id} className={`card card-${index}`}>
+        <Tip avatar={avatar} media={media} title={title} />
       </div>
     ))}
   </div>

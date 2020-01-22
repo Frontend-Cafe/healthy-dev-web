@@ -5,19 +5,17 @@ import { ThemeProvider } from "@material-ui/core";
 import tipStates from "./lib/mockData";
 import "./App.scss";
 import { theme } from "./styles/theme";
-import TipList from "./components/ListTips/TipList.jsx";
+import TipList from "./components/TipList/TipList.jsx";
 
-function App() {
-  return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
-        <Router>
-          <Route exact path="/" />
-          <TipList tipStates={tipStates} />
-        </Router>
-      </div>
-    </ThemeProvider>
-  );
-}
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <div className="App">
+      <Router>
+        <Route exact path="/" />
+        <TipList tipStates={tipStates} />
+      </Router>
+    </div>
+  </ThemeProvider>
+);
 
 export default App;
