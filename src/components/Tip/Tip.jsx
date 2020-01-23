@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "@material-ui/core/styles";
 //CSS
-import "./Tip.scss";
+import "components/Tip/Tip.scss";
 // Material IU components
 import { Avatar, Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 
