@@ -1,23 +1,17 @@
 import React from "react";
+import "./App.sass";
+//components
+import { ThemeProvider } from "@material-ui/core";
+import TipsLayout from "components/TipsLayout/TipsLayout";
 
-import logo from "./logo.svg";
+import { theme } from "./styles/theme";
 
-import "./App.css";
-
-function App() {
-  return (
+const App = () => (
+  <ThemeProvider theme={theme}>
     <div className="App">
-      <header className="App-header">
-        <img alt="logo" className="App-logo" src={logo} />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.{" "}
-        </p>
-        <a className="App-link" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
-          Learn React
-        </a>
-      </header>
+      <TipsLayout sectionTitle="Fitness Tips" />
     </div>
-  );
-}
+  </ThemeProvider>
+);
 
 export default App;
