@@ -1,8 +1,9 @@
 import React from "react";
+// Hooks
 import { useTheme } from "@material-ui/core/styles";
-//CSS
+// Styles
 import "components/Tip/Tip.scss";
-// Material IU components
+// Components
 import { Avatar, Card, CardContent, CardMedia, Typography } from "@material-ui/core";
 
 const Tip = ({ avatar, media, title }) => (
