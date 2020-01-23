@@ -11,7 +11,7 @@ export const TipsLayout = ({ searchBarIsVisible, children, sectionTitle }) => {
   return (
     <Container className="container" color="primary-dark">
       <Header searchBarIsvisible={searchBarIsVisible} sectionTitle={sectionTitle} />
-      <Container className="content">{children}</Container>
+      <div className="content">{children}</div>
       <BottomNavbar />
     </Container>
   );
