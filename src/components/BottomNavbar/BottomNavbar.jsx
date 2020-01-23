@@ -9,7 +9,7 @@ import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
 //style
 import "./BottomNavbar.sass";
 
-export const BottomNavbar = () => (
+const BottomNavbar = () => (
   <BottomNavigation className="bottomNav">
     <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
     <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
@@ -17,3 +17,5 @@ export const BottomNavbar = () => (
     <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
   </BottomNavigation>
 );
+
+export default BottomNavbar;
