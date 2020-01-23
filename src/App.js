@@ -18,9 +18,9 @@ const App = () => (
       <Router>
         <Switch>
           <TipsLayout sectionTitle="Fitness Tips">
-          <Route exact path={ROUTES.dashboard}>
-            <TipList tipStates={tipStates} />
-          </Route>
+            <Route exact path={ROUTES.dashboard}>
+              <TipList tipStates={tipStates} />
+            </Route>
           </TipsLayout>
         </Switch>
       </Router>
