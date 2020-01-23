@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../utils/styles/Login.css";
-
-function Login() {
+import "../../utils/styles/Login.css";
+import { FormControl, InputLabel, Input, FormHelperText } from "@material-ui/core";
+const Login = () => {
   return (
     <div className="container">
       <div className="title_login">
@@ -26,6 +26,6 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 
 export default Login;
