@@ -1,8 +1,8 @@
 import React from "react";
 //CSS
-import "./TipList.scss";
+import "components/TipList/TipList.scss";
 
-import Tip from "../Tip/Tip.jsx";
+import Tip from "components/Tip/Tip";
 
 const TipList = ({ tipStates }) => (
   <div className="grid-container">
