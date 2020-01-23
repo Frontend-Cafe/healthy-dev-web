@@ -1,7 +1,7 @@
 import React from "react";
-//CSS
+// Styles
 import "components/TipList/TipList.scss";
-
+// Components
 import Tip from "components/Tip/Tip";
 
 const TipList = ({ tipStates }) => (
