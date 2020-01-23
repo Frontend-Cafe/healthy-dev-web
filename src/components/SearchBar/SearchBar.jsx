@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSearch } from "react-icons/fa";
+import SearchIcon from "@material-ui/icons/Search";
 import { TextField } from "@material-ui/core";
 import "./SearchBar.sass";
 
@@ -8,7 +8,7 @@ const SearchBar = () => (
     color="primary"
     id="standard-search"
     InputProps={{
-      endAdornment: <FaSearch className="searchIco" />,
+      endAdornment: <SearchIcon className="searchIco" />
     }}
     label="Buscar"
     type="search"
