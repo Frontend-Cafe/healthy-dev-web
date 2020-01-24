@@ -1,33 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../utils/styles/Login.css";
-import IconButton from "@material-ui/core/IconButton";
-import Input from "@material-ui/core/Input";
-import FilledInput from "@material-ui/core/FilledInput";
-import OutlinedInput from "@material-ui/core/OutlinedInput";
-import InputLabel from "@material-ui/core/InputLabel";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
-import TextField from "@material-ui/core/TextField";
-import Visibility from "@material-ui/icons/Visibility";
-import VisibilityOff from "@material-ui/icons/VisibilityOff";
-import { makeStyles } from "@material-ui/core/styles";
+import "./sass/Login.css";
+import { IconButton, FilledInput, InputLabel, InputAdornment, FormControl, TextField, Button } from "@material-ui/core";
+import { Visibility, VisibilityOff } from "@material-ui/icons";
 
 const Login = () => {
-  const useStyles = makeStyles({
-    inputInfo: {
-      width: "100%",
-      height: "3rem"
-    }
-  });
-
   const [values, setValues] = React.useState({
-    amount: "",
     password: "",
-    weight: "",
-    weightRange: "",
-    showPassword: false
+    showPassword: false,
   });
 
   const handleClickShowPassword = () => {
@@ -41,7 +21,7 @@ const Login = () => {
   const handleChange = prop => event => {
     setValues({ ...values, [prop]: event.target.value });
   };
-  const classes = useStyles();
+
   return (
     <div className="container">
       <div className="title_login">
@@ -49,10 +29,14 @@ const Login = () => {
       </div>
       <div className="login_form">
         <form action="">
-          <FormControl className={classes.inputInfo} variant="filled">
-            <InputLabel htmlFor="filled-adornment-password">
-              Password
-            </InputLabel>
+          <div className="email_input">
+            <TextField id="filled-size-normal" label="Email" variant="filled" />
+            <p className="assistive_text" id="assistive_id">
+              Assistive text
+            </p>
+          </div>
+          <FormControl className="password_input" variant="filled">
+            <InputLabel htmlFor="filled-adornment-password">Password</InputLabel>
             <FilledInput
               endAdornment={
                 <InputAdornment position="end">
@@ -71,7 +55,18 @@ const Login = () => {
               value={values.password}
               onChange={handleChange("password")}
             />
+            <p className="assistive_text">Assistive text</p>
           </FormControl>
+          <Button className="btn_submit" variant="contained">
+            LOGIN
+          </Button>
+          <Link className="forgot_pass" to={"/"}>
+            ¿Olvidaste tu Password?
+          </Link>{" "}
+          <br />
+          <Link className="signup" to={"/"}>
+            CREAR CUENTA
+          </Link>
         </form>
       </div>
     </div>

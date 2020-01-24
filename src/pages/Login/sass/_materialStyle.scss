@@ -1,0 +1,22 @@
+.password_input{
+    width: 100%;
+    height: 3rem;
+
+    & .MuiInputBase-root{
+        background-color: #fff !important;
+    }
+}
+
+.email_input{
+    margin-bottom: 2rem;
+
+    & .MuiFormControl-root{
+        width: 100%;
+        height: 3rem;
+    
+    }
+
+    & .MuiInputBase-root{
+        background-color: #fff !important;
+    }
+}

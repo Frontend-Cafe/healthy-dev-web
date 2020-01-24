@@ -43,7 +43,12 @@ $form-font-color: #cecece;
         & .assistive_text{
             margin-left: 0.8rem;
             font-size: 0.8rem;
-            margin-bottom: 1rem;
+            position: relative;
+            top: 0.3rem;
+        }
+        & #assistive_id{
+            position: relative;
+            top: 0.8rem;
         }
 
         & .btn_submit{
@@ -53,7 +58,7 @@ $form-font-color: #cecece;
             border: none;
             background-color: #878787;
             color: #FFF;
-            margin-top: 1rem;
+            margin-top: 4rem;
             margin-bottom: 0.5rem;
         }
 
@@ -70,6 +75,9 @@ $form-font-color: #cecece;
             color:$form-font-color;
             text-decoration: none;
             font-size: 0.8rem;
+            font-weight: 800;
         }
     }
 }
+
+@import "materialStyle";
