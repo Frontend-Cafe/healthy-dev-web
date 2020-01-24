@@ -8,7 +8,7 @@ const SearchBar = () => (
     color="primary"
     id="standard-search"
     InputProps={{
-      endAdornment: <SearchIcon className="searchIco" />
+      endAdornment: <SearchIcon className="searchIco" />,
     }}
     label="Buscar"
     type="search"
