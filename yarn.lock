@@ -1011,10 +1011,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -1060,6 +1063,8 @@
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
 =======
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
@@ -1075,6 +1080,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
@@ -1100,10 +1106,14 @@
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 =======
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -2547,6 +2557,16 @@ axios@^0.19.1:
   dependencies:
     follow-redirects "1.5.10"
 
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
+axios@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
+  integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
+  dependencies:
+    follow-redirects "1.5.10"
+
 >>>>>>> Finishing my detail view
 axobject-query@^2.0.2:
   version "2.1.1"
@@ -3637,6 +3657,14 @@ core-js@^1.0.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
 
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
+core-js@^1.0.0:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+  integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+
 >>>>>>> Finishing my detail view
 core-js@^2.4.0:
   version "2.6.11"
@@ -4044,6 +4072,7 @@ data-urls@^1.0.0, data-urls@^1.1.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
@@ -4070,6 +4099,8 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
 =======
 =======
@@ -4078,6 +4109,8 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
 =======
 =======
 >>>>>>> Finishing my detail view
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -4100,6 +4133,7 @@ date-fns@^1.27.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
 =======
@@ -4126,8 +4160,12 @@ date-fns@^1.27.2:
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -4156,6 +4194,9 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
 =======
 =======
@@ -4167,6 +4208,18 @@ debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
+
+debug@^3.0.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -4439,6 +4492,7 @@ dom-converter@^0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -4496,6 +4550,7 @@ dom-converter@^0.2:
 =======
 =======
 >>>>>>> Finishing my detail view
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -4503,6 +4558,8 @@ dom-converter@^0.2:
 =======
 =======
 >>>>>>> Finishing my detail view
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 dom-helpers@^3.2.0:
   version "3.4.0"
@@ -4523,6 +4580,7 @@ dom-helpers@^3.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -4551,6 +4609,8 @@ dom-helpers@^3.2.0:
 =======
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> a07e7585f5c068f95c60e82207acd1397d37a910
 >>>>>>> Finishing my detail view
 =======
@@ -4566,6 +4626,8 @@ dom-helpers@^3.2.0:
 =======
 =======
 >>>>>>> Finishing my detail view
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -4743,10 +4805,18 @@ elegant-spinner@^1.0.1:
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+elegant-spinner@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
+  integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
+
 >>>>>>> Finishing my detail view
 elliptic@^6.0.0:
   version "6.5.2"
@@ -4955,6 +5025,9 @@ es-abstract@^1.17.0-next.1:
     string.prototype.trimright "^2.1.1"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 es-abstract@^1.17.0-next.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.17.1.tgz#1331afa4cba2628b63e988104b9846c2d631b380"
@@ -4972,6 +5045,7 @@ es-abstract@^1.17.0-next.1:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
+<<<<<<< HEAD
 es-abstract@^1.17.0-next.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.17.1.tgz#1331afa4cba2628b63e988104b9846c2d631b380"
@@ -5012,6 +5086,8 @@ es-abstract@^1.17.0-next.1:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -5190,10 +5266,21 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+eslint-module-utils@^2.4.1:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/eslint-module-utils/-/eslint-module-utils-2.5.2.tgz#7878f7504824e1b857dd2505b59a8e5eda26a708"
+  integrity sha512-LGScZ/JSlqGKiT8OC+cYRxseMjyqt6QO54nl281CK93unD89ijSeRV6An8Ci/2nvWVKe8K/Tqdm75RQoIOCr+Q==
+  dependencies:
+    debug "^2.6.9"
+    pkg-dir "^2.0.0"
+
 >>>>>>> Finishing my detail view
 eslint-plugin-cypress@^2.8.1:
   version "2.8.1"
@@ -5751,6 +5838,7 @@ fbjs@^0.8.1:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.18"
 
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -5762,6 +5850,21 @@ fbjs@^0.8.1:
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+fbjs@^0.8.1:
+  version "0.8.17"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
+  integrity sha1-xNWY6taUkRJlPWWIsBpc3Nn5D90=
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.18"
+
 >>>>>>> Finishing my detail view
 figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -6452,10 +6555,13 @@ hmac-drbg@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -6516,8 +6622,14 @@ hoist-non-react-statics@^3.2.1:
 hoist-non-react-statics@^3.2.1:
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
+=======
+hoist-non-react-statics@^3.2.1:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -6539,6 +6651,7 @@ hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.2.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -6568,10 +6681,14 @@ hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.2.1:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 =======
 hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.2.1:
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -6763,8 +6880,11 @@ hyphenate-style-name@^1.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -6842,7 +6962,10 @@ husky@^4.0.9:
 >>>>>>> Finishing my detail view
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 =======
 husky@^4.0.9:
@@ -6853,6 +6976,9 @@ husky@^4.0.9:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -6887,6 +7013,9 @@ hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -6932,6 +7061,8 @@ hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
@@ -6952,10 +7083,13 @@ hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -7047,6 +7181,12 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
+=======
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -7403,6 +7543,14 @@ is-callable@^1.1.5:
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.1.5.tgz#f7e46b596890456db74e7f6e976cb3273d06faab"
   integrity sha512-ESKv5sMCJB2jnHTWZ3O5itG+O128Hsus4K4Qh1h2/cgn2vbgnLSVqfV46AeJA9D5EeeLa9w81KUXMtn34zhX+Q==
 
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
+is-callable@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.1.5.tgz#f7e46b596890456db74e7f6e976cb3273d06faab"
+  integrity sha512-ESKv5sMCJB2jnHTWZ3O5itG+O128Hsus4K4Qh1h2/cgn2vbgnLSVqfV46AeJA9D5EeeLa9w81KUXMtn34zhX+Q==
+
 >>>>>>> Finishing my detail view
 is-ci@^2.0.0:
   version "2.0.0"
@@ -7669,8 +7817,18 @@ is-regex@^1.0.5:
     has "^1.0.3"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+is-regex@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.0.5.tgz#39d589a358bf18967f726967120b8fc1aed74eae"
+  integrity sha512-vlKW17SNq44owv5AQR3Cq0bQPEb8+kF3UKZ2fiZNOWtztYE5i0CzCZxFDwO58qAOWtxdBRVO/V5Qin1wjCqFYQ==
+  dependencies:
+    has "^1.0.3"
+
 >>>>>>> Finishing my detail view
 is-regexp@^1.0.0:
   version "1.0.0"
@@ -7693,6 +7851,7 @@ is-stream@^1.0.1, is-stream@^1.1.0:
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7802,6 +7961,8 @@ is-stream@^1.0.1, is-stream@^1.1.0:
 =======
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 is-string@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/is-string/-/is-string-1.0.5.tgz#40493ed198ef3ff477b8c7f92f644ec82a5cd3a6"
@@ -7820,6 +7981,8 @@ is-string@^1.0.5:
 =======
 >>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 is-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
@@ -7830,6 +7993,7 @@ is-stream@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
@@ -7844,6 +8008,9 @@ is-stream@^2.0.0:
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
 =======
+>>>>>>> Finishing my detail view
+=======
+
 >>>>>>> Finishing my detail view
 =======
 
@@ -8855,6 +9022,9 @@ listr@^0.14.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -8935,6 +9105,8 @@ listr@^0.14.3:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -9066,6 +9238,7 @@ lodash.templatesettings@^4.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> Finishing my detail view
@@ -9114,6 +9287,10 @@ lodash.throttle@^4.1.1:
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -9133,6 +9310,7 @@ lodash.throttle@^4.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -9145,12 +9323,17 @@ lodash.throttle@^4.1.1:
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
 =======
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -9880,6 +10063,7 @@ npm-run-path@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
 =======
 =======
@@ -9900,6 +10084,8 @@ npm-run-path@^2.0.0:
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
 =======
 =======
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -9959,6 +10145,8 @@ npm-run-path@^3.0.0:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 npm-run-path@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-3.1.0.tgz#7f91be317f6a466efed3c9f2980ad8a4ee8b0fa5"
@@ -9970,6 +10158,10 @@ npm-run-path@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 <<<<<<< HEAD
@@ -9977,6 +10169,8 @@ npm-run-path@^3.0.0:
 =======
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -11645,10 +11839,13 @@ react-error-overlay@^6.0.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -11709,6 +11906,12 @@ react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
 react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
+>>>>>>> Finishing my detail view
+=======
+react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 react-event-listener@^0.6.2:
   version "0.6.6"
@@ -11732,6 +11935,9 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -11775,6 +11981,8 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is
 <<<<<<< HEAD
 >>>>>>> Removing incorrect libraries
 =======
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -11891,8 +12099,11 @@ react-scripts@3.3.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -11943,6 +12154,9 @@ react-scripts@3.3.0:
 =======
 =======
 >>>>>>> Finishing my detail view
+=======
+=======
+>>>>>>> Finishing my detail view
 react-transition-group@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"
@@ -11966,6 +12180,9 @@ react-transition-group@^1.2.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -12003,6 +12220,8 @@ react-transition-group@^1.2.1:
 =======
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -12524,10 +12743,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -12543,6 +12765,8 @@ rxjs@^6.4.0, rxjs@^6.5.3:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -12584,6 +12808,7 @@ rxjs@^6.3.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
 =======
@@ -12612,9 +12837,13 @@ rxjs@^6.3.3:
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Removing incorrect libraries
 =======
 >>>>>>> Finishing my detail view
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -12764,6 +12993,7 @@ selfsigned@^1.10.7:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
 =======
 =======
@@ -12821,6 +13051,9 @@ semver-compare@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+"semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Removing incorrect libraries
 =======
 >>>>>>> Finishing my detail view
@@ -12836,6 +13069,7 @@ semver-compare@^1.0.0:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> Removing incorrect libraries
@@ -12846,6 +13080,18 @@ semver-compare@^1.0.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+>>>>>>> Finishing my detail view
+=======
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
@@ -12855,6 +13101,8 @@ semver-compare@^1.0.0:
 =======
 =======
 >>>>>>> Finishing my detail view
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
@@ -13428,6 +13676,7 @@ string.prototype.trimleft@^2.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Removing incorrect libraries
 =======
@@ -13491,8 +13740,12 @@ string.prototype.trimleft@^2.1.1:
 >>>>>>> Removing incorrect libraries
 =======
 =======
+>>>>>>> Finishing my detail view
+=======
 >>>>>>> Removing incorrect libraries
 =======
+=======
+>>>>>>> Finishing my detail view
 string.prototype.trimleft@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/string.prototype.trimleft/-/string.prototype.trimleft-2.1.1.tgz#9bdb8ac6abd6d602b17a4ed321870d2f8dcefc74"
@@ -13501,6 +13754,7 @@ string.prototype.trimleft@^2.1.1:
     define-properties "^1.1.3"
     function-bind "^1.1.1"
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
@@ -13527,6 +13781,10 @@ string.prototype.trimleft@^2.1.1:
 
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
@@ -13599,6 +13857,17 @@ string.prototype.trimright@^2.1.1:
 =======
 >>>>>>> Removing incorrect libraries
 =======
+>>>>>>> Finishing my detail view
+=======
+string.prototype.trimright@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/string.prototype.trimright/-/string.prototype.trimright-2.1.1.tgz#440314b15996c866ce8a0341894d45186200c5d9"
+  integrity sha512-qFvWL3/+QIgZXVmJBfpHmxLB7xsUXz6HsUmP8+5dRaC3Q7oKUv9Vo6aMCRZC1smrtyECFsIT30PqBJ1gTjAs+g==
+  dependencies:
+    define-properties "^1.1.3"
+    function-bind "^1.1.1"
+
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
 string.prototype.trimright@^2.1.1:
@@ -13935,6 +14204,7 @@ timsort@^0.3.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 =======
@@ -13952,6 +14222,8 @@ tiny-warning@^1.0.2:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -13986,6 +14258,10 @@ tiny-warning@^1.0.2:
 =======
 >>>>>>> Removing incorrect libraries
 >>>>>>> Removing incorrect libraries
+=======
+tiny-warning@^1.0.2:
+=======
+>>>>>>> Finishing my detail view
 =======
 tiny-warning@^1.0.2:
 =======
@@ -14022,6 +14298,7 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
@@ -14051,9 +14328,13 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.2:
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> Finishing my detail view
 >>>>>>> Finishing my detail view
 =======
 >>>>>>> Removing incorrect libraries
+=======
+>>>>>>> Finishing my detail view
 =======
 >>>>>>> Finishing my detail view
 =======
