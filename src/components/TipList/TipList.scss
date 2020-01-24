@@ -1,0 +1,76 @@
+// Fixed grid layout in a masonry style.
+// Must be a better way. Try generating variable heights and auto flow the grid.
+.grid-container {
+  display: grid;
+  column-gap: 4vw;
+  row-gap: 1vh;
+  grid-template-areas:
+    "a b"
+    "a b"
+    "a d"
+    "c d"
+    "c f"
+    "e f"
+    "e h"
+    "e h"
+    "g h"
+    "g h";
+  overflow: hidden;
+  background-color: #212121;
+  max-height: 300vh;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12vh;
+}
+
+.card {
+  &-0 {
+    grid-area: a;
+    .media {
+      height: 50vh;
+    }
+  }
+  &-1 {
+    grid-area: b;
+    .media {
+      height: 25vh;
+    }
+  }
+  &-2 {
+    grid-area: c;
+    .media {
+      height: 45vh;
+    }
+  }
+  &-3 {
+    grid-area: d;
+
+    .media {
+      height: 45vh;
+    }
+  }
+  &-4 {
+    grid-area: e;
+    .media {
+      height: 40vh;
+    }
+  }
+  &-5 {
+    grid-area: f;
+    .media {
+      height: 45vh;
+    }
+  }
+  &-6 {
+    grid-area: g;
+    .media {
+      height: 25vh;
+    }
+  }
+  &-7 {
+    grid-area: h;
+    .media {
+      height: 45vh;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+  .MuiPaper-root {
+    background-color: #212121;
+    color: #ffffff;
+    align-self: start;
+    justify-self: stretch;
+  }
+
+  .MuiAvatar-root {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    margin: 0.5em;
+  }
+  .title h2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1.1em;
+    letter-spacing: -0.04em;
+  }
+  .MuiCardContent-root {
+    padding: 0.5em 2.3em 0 0;
+    background-color: #212121;
+  }
+  .MuiCardContent-root:last-child {
+    padding-bottom: 0px;
+  }
+}
