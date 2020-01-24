@@ -65,13 +65,7 @@ export default function ItemDetail() {
           title="Una palta chivando"
         />
         <CardContent>
-          <Box
-            alignItems="center"
-            display="flex"
-            flexDirection="row"
-            flexWrap="nowrap"
-            justifyContent="space-between"
-          >
+          <Box alignItems="center" display="flex" flexDirection="row" flexWrap="nowrap" justifyContent="space-between">
             <Typography className="title" component="h1" variant="h5">
               {item.name}
             </Typography>
@@ -81,15 +75,13 @@ export default function ItemDetail() {
           </Box>
           <Typography className="paragraph" component="p" variant="body1">
             Lo de arriba es una palta healthy chivando. <br />
-            <br /> Cada vez que se actualice la pagina, un nombre de algun
-            personaje de Star Wars aparecera en el titulo. Y abajo, apareceran
-            los datos de este <br />
+            <br /> Cada vez que se actualice la pagina, un nombre de algun personaje de Star Wars aparecera en el
+            titulo. Y abajo, apareceran los datos de este <br />
             <br /> La altura de {item.name} es de {item.height}cms.
             <br /> El color de pelo es {item.hair_color}.
             <br /> Su año de nacimiento es {item.birth_year}. <br />
-            <br /> Minima sapiente impedit dicta qui sunt magni alias quidem
-            dolores deleniti numquam vero sed aspernatur saepe, repellat ea
-            accusamus nemo ullam eius voluptatem!
+            <br /> Minima sapiente impedit dicta qui sunt magni alias quidem dolores deleniti numquam vero sed
+            aspernatur saepe, repellat ea accusamus nemo ullam eius voluptatem!
           </Typography>
         </CardContent>
       </Card>
