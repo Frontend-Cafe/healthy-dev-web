@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Hooks
 import { ThemeProvider } from "@material-ui/core";
-import TipsLayout from "components/TipsLayout/TipsLayout";
 // Data
 import { ROUTES } from "lib/routes";
 import tipStates from "lib/mockData";
