@@ -13,4 +13,8 @@ export const theme = createMuiTheme({
     contrastThreshold: 3,
     tonalOffset: 0.2,
   },
+  reset: {
+    padding: 0,
+    margin: 0,
+  },
 });
