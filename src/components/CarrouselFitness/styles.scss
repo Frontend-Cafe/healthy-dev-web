@@ -1,0 +1,37 @@
+.MuiBox-root-2 {
+    margin-bottom: 33px;
+}
+header.MuiBox-root-3 {
+    text-align: center;
+    margin-bottom: 28px;
+}
+h2.MuiTypography-body1 {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+}
+div.MuiBox-root-34 {
+    display: flex;
+    justify-content: center;
+    padding: 0 11px; //Padding a 19px cuando el body este a 0px.
+    
+    figure {
+        margin: 0 6.5px;
+        border-radius: 0;
+        box-shadow: none;
+        
+        img {
+            width: 162px;
+            height: 127px;
+        }
+    } 
+    figure:first-child {
+        margin: 0 6.5px 0 0;
+    }
+    figure:last-child {
+        margin: 0 0 0 6.5px;
+    }
+}
+div.MuiCardContent-root:last-child {
+    padding: 9px 0 0 0 ;
+}
