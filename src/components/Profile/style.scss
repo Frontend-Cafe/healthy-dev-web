@@ -1,0 +1,17 @@
+.Profile {
+    article:last-of-type {
+        margin-bottom: 36px;
+    }
+
+    a{
+        display: block;
+        /* color: #fff; */
+        font-size: 20px;
+        line-height: 23px;
+        margin-left: 40px;
+    }
+
+    a:first-of-type{
+        margin-bottom: 23px;
+    }
+}

@@ -1,8 +1,8 @@
 //Imports React
 import React from "react";
 import ReactDOM from "react-dom";
-
 // Components
-import App from "./App";
+/* import App from "./App"; */
+import Profile from "components/Profile";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Profile />, document.getElementById("root"));
