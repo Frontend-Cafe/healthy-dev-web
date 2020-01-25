@@ -1,4 +1,3 @@
-//Import React
 import React from "react";
 //Imports Material-ui
 import { Box, Typography } from "@material-ui/core";
@@ -7,16 +6,17 @@ import CardCarrousel from "components/CardCarrousel";
 //Imports Styles
 import "./styles.scss";
 
-const CarrouselProfile = ({ TitleSection, Data }) => {
-  const DATA = Data;
-  const CARDITEMS = DATA.map(data => <CardCarrousel key={data.id} image={data.img} title={data.title} />);
-
+const CarrouselProfile = ({ titleSection, data }) => {
   return (
     <Box className="CarrouselProfile" component="article">
       <Box component="header">
-        <Typography component="h2">{TitleSection}</Typography>
+        <Typography component="h2">{titleSection}</Typography>
       </Box>
-      <Box>{CARDITEMS}</Box>
+      <Box>
+        {data.map(datos => (
+          <CardCarrousel key={datos.id} image={datos.img} title={datos.title} />
+        ))}
+      </Box>
     </Box>
   );
 };

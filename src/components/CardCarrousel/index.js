@@ -1,4 +1,3 @@
-//Import React
 import React from "react";
 //Imports Material-ui
 import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
