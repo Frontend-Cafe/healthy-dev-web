@@ -1,3 +1,5 @@
+import Image from "assets/images/sushiMochi.jpg";
+
 const tipStates = [
   {
     title: "Does diet influence mental health?",
@@ -47,6 +49,11 @@ const tipStates = [
     avatar: "https://pbs.twimg.com/profile_images/1199686661954818050/IRXOiWJY_400x400.jpg",
     id: 234008,
   },
+];
+
+export const tipsData = [
+  { id: "1", title: "Lorem ipsum dolor sit amet", img: Image },
+  { id: "2", title: "Lorem ipsum dolor sit amet", img: Image },
 ];
 
 export default tipStates;
