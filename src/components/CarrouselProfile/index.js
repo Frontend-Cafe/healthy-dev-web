@@ -6,15 +6,15 @@ import CardCarrousel from "components/CardCarrousel";
 //Imports Styles
 import "./styles.scss";
 
-const CarrouselProfile = ({ titleSection, data }) => {
+const CarrouselProfile = ({ titleSection, items }) => {
   return (
-    <Box className="CarrouselProfile" component="article">
+    <Box className="carrousel-profile" component="article">
       <Box component="header">
         <Typography component="h2">{titleSection}</Typography>
       </Box>
       <Box>
-        {data.map(datos => (
-          <CardCarrousel key={datos.id} image={datos.img} title={datos.title} />
+        {items.map(item => (
+          <CardCarrousel key={item.id} image={item.img} title={item.title} />
         ))}
       </Box>
     </Box>

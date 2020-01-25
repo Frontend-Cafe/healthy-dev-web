@@ -6,19 +6,15 @@ import CarrouselProfile from "components/CarrouselProfile";
 //Import Style
 import "./style.scss";
 //Import Data
-import DATACARROUSEL from "lib/constants";
+import DataCarrousel from "lib/constants";
 
-const Profile = () => {
-  const DATA = DATACARROUSEL;
+const Profile = () => (
+  <Box className="profile" component="section">
+    <CarrouselProfile items={DataCarrousel} titleSection="Mis Fitness Tips" />
+    <CarrouselProfile items={DataCarrousel} titleSection="Mi Alimentación Tips" />
 
-  return (
-    <Box className="Profile" component="section">
-      <CarrouselProfile data={DATA} titleSection="Mis Fitness Tips" />
-      <CarrouselProfile data={DATA} titleSection="Mi Alimentación Tips" />
-
-      <a href="/">Editar Mi Perfil</a>
-      <a href="/">Salir De Mi Cuenta</a>
-    </Box>
-  );
-};
+    <a href="/">Editar Mi Perfil</a>
+    <a href="/">Salir De Mi Cuenta</a>
+  </Box>
+);
 export default Profile;
