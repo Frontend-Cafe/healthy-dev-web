@@ -6,12 +6,12 @@ import CarrouselProfile from "components/CarrouselProfile";
 //Import Style
 import "./style.scss";
 //Import Data
-import { tipsData as DATA_CARROUSEL } from "lib/mockData";
+import { tipsData } from "lib/mockData";
 
 const Profile = () => (
   <Box className="profile" component="section">
-    <CarrouselProfile items={DATA_CARROUSEL} titleSection="Mis Fitness Tips" />
-    <CarrouselProfile items={DATA_CARROUSEL} titleSection="Mi Alimentación Tips" />
+    <CarrouselProfile items={tipsData} titleSection="Mis Fitness Tips" />
+    <CarrouselProfile items={tipsData} titleSection="Mi Alimentación Tips" />
 
     <a href="/">Editar Mi Perfil</a>
     <a href="/">Salir De Mi Cuenta</a>
