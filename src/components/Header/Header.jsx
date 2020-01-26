@@ -1,7 +1,6 @@
 import React from "react";
 //style
 import "./Header.sass";
-
 //components
 import { Typography } from "@material-ui/core";
 import SearchBar from "components/SearchBar/SearchBar";
