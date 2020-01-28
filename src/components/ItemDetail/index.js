@@ -8,7 +8,11 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { Box } from "@material-ui/core";
-// styles imports
+
+// import components
+import Loading from "../Loading";
+import ErrorPage from "../ErrorPage";
+// import styles
 import "./styles.scss";
 
 // main function
@@ -16,7 +20,7 @@ import "./styles.scss";
 export default function ItemDetail() {
   const [item, setItem] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(null);
+  const [hasError, setHasError] = useState(null);
 
   // fake api de prueba
   const API_URL = `https://swapi.co/api/people/`;
@@ -32,30 +36,23 @@ export default function ItemDetail() {
         const data = await result.json();
         setItem(data);
       } catch (error) {
-        setIsError("Hubo alto error amigo");
+        setHasError("Hubo alto error amigo");
+      } finally {
+        setIsLoading(false);
       }
-      setIsLoading(false);
     }
     fetchData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // error screen
-  if (isError) {
-    return (
-      <div>
-        <h1>Pantalla de error</h1>
-        <p>El mensaje es el siguiente: {isError}</p>
-      </div>
-    );
+  if (hasError) {
+    return <ErrorPage />;
   }
 
-  // loading screen
   if (isLoading) {
-    return <h1>Pantalla de cargando...</h1>;
+    return <Loading />;
   }
 
-  // all ok, return main card
   return (
     <StylesProvider injectFirst>
       <Card className="card">
@@ -74,14 +71,7 @@ export default function ItemDetail() {
             </IconButton>
           </Box>
           <Typography className="paragraph" component="p" variant="body1">
-            Lo de arriba es una palta healthy chivando. <br />
-            <br /> Cada vez que se actualice la pagina, un nombre de algun personaje de Star Wars aparecera en el
-            titulo. Y abajo, apareceran los datos de este <br />
-            <br /> La altura de {item.name} es de {item.height}cms.
-            <br /> El color de pelo es {item.hair_color}.
-            <br /> Su año de nacimiento es {item.birth_year}. <br />
-            <br /> Minima sapiente impedit dicta qui sunt magni alias quidem dolores deleniti numquam vero sed
-            aspernatur saepe, repellat ea accusamus nemo ullam eius voluptatem!
+            <Loading />
           </Typography>
         </CardContent>
       </Card>
