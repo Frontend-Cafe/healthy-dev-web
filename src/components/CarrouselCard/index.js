@@ -2,7 +2,7 @@ import React from "react";
 //Imports Material-ui
 import { Card, CardMedia, CardContent, Typography } from "@material-ui/core";
 
-const CardCarrousel = ({ title, image }) => (
+const CarrouselCard = ({ title, image }) => (
   <Card component="figure">
     <CardMedia component="img" image={image} />
     <CardContent>
@@ -11,4 +11,4 @@ const CardCarrousel = ({ title, image }) => (
   </Card>
 );
 
-export default CardCarrousel;
+export default CarrouselCard;
