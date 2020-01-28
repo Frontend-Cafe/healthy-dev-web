@@ -38,23 +38,8 @@
   "devDependencies": {
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-cypress": "^2.8.1",
-    "eslint-plugin-import": "^2.20.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.0.9",
-    "lint-staged": "^9.5.0",
     "node-sass": "^4.13.0",
     "prettier": "^1.19.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "**/*.+(js)": [
-      "eslint --fix",
-      "prettier --write"
-    ]
   }
 }
