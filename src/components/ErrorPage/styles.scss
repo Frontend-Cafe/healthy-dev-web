@@ -1,0 +1,49 @@
+@import "../../styles/variables.sass";
+html {
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+}
+
+.errorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    padding: 30px;
+    width: auto;
+    height: auto;
+}
+
+.errorContainerGrid {
+    display: grid;
+    width: 80%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "text" "image" "button";
+    justify-content: center;
+    align-items: center;
+}
+
+.errorContainer-text {
+    grid-area: text;
+    padding: 30px;
+    color: $principalColor;
+}
+
+.errorContainer-img {
+    height: auto;
+    grid-area: image;
+}
+
+.errorContainer-img>img {
+    width: 90%;
+    height: auto;
+}
+
+.errorContainer-btn{
+    grid-area: button;
+    margin: 20px;
+    height: 50px;
+    border-radius: 30px;
+}
