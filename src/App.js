@@ -12,6 +12,7 @@ import { theme } from "styles/theme";
 // Components
 import TipList from "components/TipList/TipList";
 import TipsLayout from "components/TipsLayout/TipsLayout";
+import Register from "pages/Register/Register";
 
 const App = () => {
   const [tipStates, setTipStates] = useState([]);
@@ -36,11 +37,7 @@ const App = () => {
       <div className="App">
         <Router>
           <Switch>
-            <TipsLayout sectionTitle="Fitness Tips">
-              <Route exact path={ROUTES.dashboard}>
-                <TipList tipStates={tipStates} />
-              </Route>
-            </TipsLayout>
+            <Register />
           </Switch>
         </Router>
       </div>
@@ -49,3 +46,9 @@ const App = () => {
 };
 
 export default App;
+
+// <TipsLayout sectionTitle="Fitness Tips">
+// <Route exact path={ROUTES.dashboard}>
+//   <TipList tipStates={tipStates} />
+// </Route>
+// </TipsLayout>
