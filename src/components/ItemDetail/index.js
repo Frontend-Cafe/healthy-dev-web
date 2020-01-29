@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // Material UI imports
-import { StylesProvider } from "@material-ui/core/styles";
+// import { StylesProvider } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
@@ -54,27 +54,26 @@ export default function ItemDetail() {
   }
 
   return (
-    <StylesProvider injectFirst>
-      <Card className="card">
-        <CardMedia
-          className="media"
-          image="https://unblast.com/wp-content/uploads/2019/09/Avocado-Healthy-Fruit-Illustration.jpg"
-          title="Una palta chivando"
-        />
-        <CardContent>
-          <Box alignItems="center" display="flex" flexDirection="row" flexWrap="nowrap" justifyContent="space-between">
-            <Typography className="title" component="h1" variant="h5">
-              {item.name}
-            </Typography>
-            <IconButton aria-label="settings">
-              <MoreVertIcon style={{ fill: "white" }} />
-            </IconButton>
-          </Box>
-          <Typography className="paragraph" component="p" variant="body1">
-            <Loading />
+    <Card className="itemDetailCard">
+      <CardMedia
+        className="itemDetailCard-media"
+        image="https://unblast.com/wp-content/uploads/2019/09/Avocado-Healthy-Fruit-Illustration.jpg"
+        title="Una palta chivando"
+      />
+      <CardContent>
+        <Box alignItems="center" display="flex" flexDirection="row" flexWrap="nowrap" justifyContent="space-between">
+          <Typography className="itemDetailCard-title" component="h1" variant="h5">
+            {item.name}
           </Typography>
-        </CardContent>
-      </Card>
-    </StylesProvider>
+          <IconButton aria-label="settings">
+            <MoreVertIcon style={{ fill: "white" }} />
+          </IconButton>
+        </Box>
+        <Typography className="itemDetailCard-paragraph" component="p" variant="body1">
+          {item.name}
+          {/* aca va el contenido del item */}
+        </Typography>
+      </CardContent>
+    </Card>
   );
 }

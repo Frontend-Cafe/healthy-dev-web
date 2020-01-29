@@ -1,21 +1,26 @@
 @import "../../styles/variables.sass";
-.card {
+div.MuiPaper-root.MuiCard-root.itemDetailCard {
     background: $background-color;
     max-width: 100%;
     box-shadow: none;
 }
 
-.media {
+div.MuiCardMedia-root.itemDetailCard-media {
     height: 0;
     padding-top: 75%; // 56.25% es 16:9
 }
 
-.title {
-    color: white;
+h1.MuiTypography-root.itemDetailCard-title {
+    color: $principalColor;
     font-weight: bold;
 }
 
-.paragraph {
+p.MuiTypography-root.itemDetailCard-paragraph {
     padding-top: 10px;
-    color: #f2f2f2;
+    color: $paragraphColor;
+    text-align: start;
+}
+
+div.loadingContainerTwo {
+    height: 100px;
 }
