@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// Hooks
+import "./App.scss";
+//components
 import { ThemeProvider } from "@material-ui/core";
 // Data
 import { ROUTES } from "lib/routes";
