@@ -8,7 +8,7 @@ export default function ErrorPage() {
       <div className="errorContainerGrid">
         <div className="errorContainer-text">
           <h1>Oops!</h1>
-          <p>Algo salió mal mostre</p>
+          <p>Algo salió mal locura</p>
         </div>
         <div className="errorContainer-img">
           <img
