@@ -8,12 +8,11 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { Box } from "@material-ui/core";
-
 // import components
-import Loading from "../Loading";
-import ErrorPage from "../ErrorPage";
+import Loading from "Loading";
+import ErrorPage from "ErrorPage";
 // import styles
-import "./styles.scss";
+import "styles.scss";
 
 // main function
 // eventualmente recibira props del parent, de donde sacaremos el ID para fetchear
