@@ -1029,7 +1029,11 @@
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
 =======
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.6.3", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6":
@@ -1055,7 +1059,11 @@
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.3.tgz#0811944f73a6c926bb2ad35e918dcc1bfab279f1"
   integrity sha512-fVHx1rzEmwB130VTkLnxR+HmxcTjGzH12LYQcFFoBwakMd3aOMD4OsRN7tGG/UOYE2ektgFrS8uACAoRk1CY0w==
@@ -3925,7 +3933,11 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 date-fns@^1.27.2:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
@@ -3950,7 +3962,11 @@ date-fns@^1.27.2:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
 >>>>>>> Finishing my detail view
   version "2.6.9"
@@ -3979,7 +3995,11 @@ debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 debug@=3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
@@ -4253,7 +4273,11 @@ dom-converter@^0.2:
 >>>>>>> Finishing my detail view
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 dom-helpers@^3.2.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
@@ -4285,7 +4309,11 @@ dom-helpers@^3.2.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
 dom-helpers@^5.0.1:
   version "5.1.3"
@@ -6032,7 +6060,11 @@ hoist-non-react-statics@^3.2.1:
 >>>>>>> Finishing my detail view
 =======
 hoist-non-react-statics@^3.2.1:
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 =======
 hoist-non-react-statics@^2.3.1:
   version "2.5.5"
@@ -6064,7 +6096,11 @@ hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.2.1:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#101685d3aff3b23ea213163f6e8e12f4f111e19f"
@@ -6263,7 +6299,11 @@ husky@^4.0.9:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 =======
 husky@^4.0.9:
   version "4.0.10"
@@ -6287,7 +6327,11 @@ husky@^4.0.9:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
   dependencies:
     chalk "^3.0.0"
     ci-info "^2.0.0"
@@ -6323,7 +6367,11 @@ hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.3.tgz#097bb7fa0b8f1a9cf0bd5c734cf95899981a9b48"
@@ -6379,7 +6427,11 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
 >>>>>>> Finishing my detail view
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
 =======
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
@@ -6387,7 +6439,11 @@ iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
 <<<<<<< HEAD
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
@@ -7002,7 +7058,11 @@ is-string@^1.0.5:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 is-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
@@ -7034,7 +7094,11 @@ is-stream@^2.0.0:
 >>>>>>> Finishing my detail view
 =======
 
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 is-svg@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-3.0.0.tgz#9321dbd29c212e5ca99c4fa9794c714bcafa2f75"
@@ -8100,7 +8164,11 @@ listr@^0.14.3:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -8232,7 +8300,11 @@ lodash.templatesettings@^4.0.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
@@ -8257,7 +8329,11 @@ lodash.throttle@^4.1.1:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 lodash.unescape@4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
@@ -8986,7 +9062,11 @@ npm-run-path@^2.0.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 npm-run-path@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-3.1.0.tgz#7f91be317f6a466efed3c9f2980ad8a4ee8b0fa5"
@@ -9013,7 +9093,11 @@ npm-run-path@^3.0.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0, npmlog@^4.0.2:
 >>>>>>> Finishing my detail view
   version "4.1.2"
@@ -10695,7 +10779,11 @@ react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
 >>>>>>> Finishing my detail view
 =======
 react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 =======
 react-event-listener@^0.6.2:
   version "0.6.6"
@@ -10734,7 +10822,11 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
@@ -10860,7 +10952,11 @@ react-scripts@3.3.0:
 >>>>>>> Finishing my detail view
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 react-transition-group@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-1.2.1.tgz#e11f72b257f921b213229a774df46612346c7ca6"
@@ -10896,7 +10992,11 @@ react-transition-group@^1.2.1:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
 react-transition-group@^4.3.0:
   version "4.3.0"
@@ -11420,7 +11520,11 @@ rxjs@^6.4.0, rxjs@^6.5.3:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 rxjs@^6.3.3:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.4.tgz#e0777fe0d184cec7872df147f303572d414e211c"
@@ -11447,7 +11551,11 @@ rxjs@^6.3.3:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 rxjs@^6.4.0:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.3.tgz#510e26317f4db91a7eb1de77d9dd9ba0a4899a3a"
@@ -11597,7 +11705,11 @@ selfsigned@^1.10.7:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 semver-compare@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
@@ -11622,7 +11734,11 @@ semver-compare@^1.0.0:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
 >>>>>>> Finishing my detail view
   version "5.7.1"
@@ -12233,7 +12349,11 @@ string.prototype.trimleft@^2.1.1:
     define-properties "^1.1.3"
     function-bind "^1.1.1"
 
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 string.prototype.trimright@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/string.prototype.trimright/-/string.prototype.trimright-2.1.0.tgz#669d164be9df9b6f7559fa8e89945b168a5a6c58"
@@ -12618,7 +12738,11 @@ tiny-warning@^1.0.2:
 =======
 tiny-warning@^1.0.2:
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 tiny-invariant@^1.0.2:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.0.6.tgz#b3f9b38835e36a41c843a3b0907a5a7b3755de73"
@@ -12649,7 +12773,11 @@ tiny-warning@^1.0.0, tiny-warning@^1.0.2:
 =======
 >>>>>>> Finishing my detail view
 =======
+<<<<<<< HEAD
 >>>>>>> Finishing my detail view
+=======
+>>>>>>> 0c92a4a187cb4fda60e80ea69a8d00782446c1bf
+>>>>>>> 8406a73a3a9ed1295707432e3503210154a9991d
 >>>>>>> Finishing my detail view
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
