@@ -12,7 +12,7 @@ import { theme } from "styles/theme";
 // Components
 import TipList from "components/TipList/TipList";
 import TipsLayout from "components/TipsLayout/TipsLayout";
-import Register from "pages/Register/Register";
+import FormikRegister from "pages/Register/Register";
 
 const App = () => {
   const [tipStates, setTipStates] = useState([]);
@@ -37,7 +37,7 @@ const App = () => {
       <div className="App">
         <Router>
           <Switch>
-            <Register />
+            <FormikRegister />
           </Switch>
         </Router>
       </div>

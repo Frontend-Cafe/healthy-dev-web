@@ -1,79 +1,60 @@
 import React from "react";
-import { useFormik } from "formik";
+import { withFormik, Form } from "formik";
+import * as Yup from "yup";
 import { useTheme } from "@material-ui/core";
-import { Typography, Button, Container, FormControl, Input, FormHelperText, Box } from "@material-ui/core";
+import { Typography, Button, Grid, FormControl, TextField, FormHelperText, Box, Container } from "@material-ui/core";
+//Styles
 
-const Register = () => {
-  const validateEmail = value => {
-    let error;
-    if (!value) {
-      error = "Required";
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {
-      error = "Invalid email address";
-    }
-    return error;
-  };
-  const formik = useFormik({
-    initialValues: {
-      name: "",
-      email: "",
-      password: "",
-    },
-    validateEmail,
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
-
+const Register = ({ values, errors, touched, isSubmitting }) => {
+  const theme = useTheme();
   return (
     <Container>
-      <Typography>Register</Typography>
-      <form onSubmit={formik.handleSubmit}>
-        <Box>
-          <FormControl>
-            <Input
-              required
-              aria-describedby="Nombre"
-              id="name"
-              name="name"
-              value={formik.values.name}
-              onChange={formik.handleChange}
-            />
+      <Form>
+        <Grid container alignItems="center" direction="column" justify="center" spacing={4}>
+          <Grid item>
+            <Typography>Register</Typography>
+          </Grid>
+          <Grid item>
+            <TextField required aria-describedby="Nombre" id="name" name="name" value={values.name} />
             <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
-          </FormControl>
-          <FormControl>
-            <Input
-              required
-              aria-describedby="Email"
-              id="email"
-              name="email"
-              validate={formik.validateEmail}
-              value={formik.values.email}
-              onChange={formik.handleChange}
-            />
+          </Grid>
+          <Grid item>
+            <TextField required aria-describedby="Email" id="email" name="email" value={values.email} />
             <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
-          </FormControl>
-          <FormControl>
-            <Input
+          </Grid>
+          <Grid>
+            <TextField
               required
               aria-describedby="Password"
               id="password"
               name="password"
               type="password"
-              value={formik.values.password}
-              onChange={formik.handleChange}
+              value={values.password}
             />
             <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
-          </FormControl>
-        </Box>
-        <Box>
-          <Button type="submit" variant="contained">
-            Crear cuenta
-          </Button>
-        </Box>
-      </form>
+          </Grid>
+          <Grid item>
+            <Button type="submit" variant="contained">
+              Crear cuenta
+            </Button>
+          </Grid>
+        </Grid>
+      </Form>
     </Container>
   );
 };
 
-export default Register;
+const FormikRegister = withFormik({
+  mapPropsToValues({ name, email, password }) {
+    return {
+      name: name || "",
+      email: email || "",
+      password: password || "",
+    };
+  },
+  handleSubmit(values, { resetForm, setErrors, setSubmitting }) {
+    console.log(values);
+  },
+})(Register);
+
+export default FormikRegister;
