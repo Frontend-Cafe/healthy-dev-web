@@ -2,39 +2,57 @@ import React from "react";
 import { withFormik, Form } from "formik";
 import * as Yup from "yup";
 import { useTheme } from "@material-ui/core";
-import { Typography, Button, Grid, FormControl, TextField, FormHelperText, Box, Container } from "@material-ui/core";
+import { Typography, Button, Grid, TextField, FormHelperText, Container } from "@material-ui/core";
 //Styles
+import "./Register.scss";
 
 const Register = ({ values, errors, touched, isSubmitting }) => {
-  const theme = useTheme();
   return (
-    <Container>
-      <Form>
-        <Grid container alignItems="center" direction="column" justify="center" spacing={4}>
-          <Grid item>
-            <Typography>Register</Typography>
+    <Container className="outer-container">
+      <Form className="inner-container">
+        <Grid container alignItems="center" direction="row" justify="center">
+          <Grid item className="title-item">
+            <Typography variant="h1">Bienvenide a Healthy Dev</Typography>
           </Grid>
-          <Grid item>
-            <TextField required aria-describedby="Nombre" id="name" name="name" value={values.name} />
-            <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
-          </Grid>
-          <Grid item>
-            <TextField required aria-describedby="Email" id="email" name="email" value={values.email} />
-            <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
-          </Grid>
-          <Grid>
+          <Grid item className="name-item">
             <TextField
+              fullWidth
               required
-              aria-describedby="Password"
+              aria-describedby="Nombre"
+              id="name"
+              name="name"
+              placeholder="Nombre"
+              value={values.name}
+              variant="filled"
+            />
+          </Grid>
+          <Grid item className="email-item">
+            <TextField
+              fullWidth
+              required
+              aria-describedby="Email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              value={values.email}
+              variant="filled"
+            />
+          </Grid>
+          <Grid item className="password-item">
+            <TextField
+              fullWidth
+              required
+              aria-describedby="Crear Password"
               id="password"
               name="password"
+              placeholder="Crear Password"
               type="password"
               value={values.password}
+              variant="filled"
             />
-            <FormHelperText id="my-helper-text">Assistive text</FormHelperText>
           </Grid>
           <Grid item>
-            <Button type="submit" variant="contained">
+            <Button fullWidth className="button" color="secondary" type="submit" variant="outlined">
               Crear cuenta
             </Button>
           </Grid>

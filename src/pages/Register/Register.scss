@@ -1,0 +1,72 @@
+.MuiContainer-root.outer-container {
+  background-color: #112045;
+  height: 100vh;
+  width: 100vw;
+}
+
+.inner-container {
+  height: 100%;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.MuiGrid-item {
+  width: 100%;
+  padding: 1rem 0px;
+}
+
+.MuiContainer-root.MuiFilledInput-root {
+  background-color: #E8E8E8;
+}
+
+.MuiGrid-item.title-item {
+  width: 50%;
+  margin: 2rem 2rem 12rem 2rem
+}
+
+.MuiFormHelperText-root.white-text {
+  color: #FFFFFF;
+}
+
+.MuiTextField-root {
+  background-color: #E8E8E8;
+}
+
+.MuiTextField-root label {
+  color: rgba(0,0,0,0.6);
+  mix-blend-mode: normal;
+  line-height: 24px;
+}
+
+.MuiInputBase-input.MuiFilledInput-input {
+  line-height: 24px;
+  padding: 1rem 1rem;
+  background-color: #E8E8E8;
+}
+
+.MuiTextField-root.MuiFormHelperText-root input {
+  color: #FFFFFF;
+}
+
+.MuiTypography-root {
+color: #FFFFFF;
+}
+
+.MuiButton-root.button {
+  color: #FFFFFF;
+  background-color: #26B0A1;
+  border: none;
+  border-radius: 200px;
+  height: 2.8rem;
+  font-size: 1rem;
+}
+
+.MuiTypography-root h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
