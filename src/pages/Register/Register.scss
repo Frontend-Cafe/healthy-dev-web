@@ -60,6 +60,18 @@ color: #FFFFFF;
   border-radius: 200px;
   height: 2.8rem;
   font-size: 1rem;
+  &.disabled {
+    background-color: #26B0A1;
+  }
+  &.containedSecondary {
+    background-color: #26B0A1;
+  }
+  
+}
+
+.MuiButton-outlinedSecondary.button:hover {
+  background-color: #26B0A1;
+  border: none;
 }
 
 .MuiTypography-root h1 {
