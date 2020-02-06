@@ -1,9 +1,14 @@
-$background-login-color: #212121;
+$background-login-color: #112045;
+$login-button-color: #26B0A1;
 $form-font-color: #cecece;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
     *{
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+
     }
 .container{
     background-color: $background-login-color;
@@ -22,6 +27,7 @@ $form-font-color: #cecece;
         align-items: center;
         justify-content: center;
         text-align: center;
+        font-weight: bold;
     }
 
     /*FORM*/
@@ -56,7 +62,7 @@ $form-font-color: #cecece;
             border-radius: 2rem;
             height: 2rem;
             border: none;
-            background-color: #878787;
+            background-color: $login-button-color;
             color: #FFF;
             margin-top: 4rem;
             margin-bottom: 0.5rem;
