@@ -1,26 +1,27 @@
-import React from "react";
-import { Grid, Typography, TextField, Button, Link, Box } from "@material-ui/core";
-import IconButton from "@material-ui/core/IconButton";
-import Input from "@material-ui/core/Input";
-import FilledInput from "@material-ui/core/FilledInput";
-import OutlinedInput from "@material-ui/core/OutlinedInput";
-import InputLabel from "@material-ui/core/InputLabel";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import FormHelperText from "@material-ui/core/FormHelperText";
-import FormControl from "@material-ui/core/FormControl";
-import Visibility from "@material-ui/icons/Visibility";
-import VisibilityOff from "@material-ui/icons/VisibilityOff";
-import { spacing } from '@material-ui/system';
+import React, { useState } from "react";
+import {
+  Grid,
+  Typography,
+  TextField,
+  Button,
+  Link,
+  Box,
+  IconButton,
+  FilledInput,
+  InputLabel,
+  InputAdornment,
+  FormHelperText,
+  FormControl,
+} from "@material-ui/core";
+import { Visibility, VisibilityOff } from "@material-ui/icons"
+import { spacing } from "@material-ui/system";
 
 import "./index.css";
 
 const LoginMaterial = () => {
-  const [values, setValues] = React.useState({
-    amount: "",
-    password: "",
-    weight: "",
-    weightRange: "",
-    showPassword: false
+  const [values, setValues] = useState({
+    password: '',
+    showPassword: false,
   });
 
   const handleChange = prop => event => {
@@ -34,9 +35,6 @@ const LoginMaterial = () => {
   const handleMouseDownPassword = event => {
     event.preventDefault();
   };
-  const theme = {
-    spacing: [0, 2, 3, 5, 8],
-  }
   return (
     <>
       <Grid
@@ -53,26 +51,35 @@ const LoginMaterial = () => {
         }}
       >
         <Grid item xs={12}>
-          <Box>
+          <Box mb={2} mt={2}>
             <img
               alt=""
               src="https://i.pinimg.com/originals/eb/4f/36/eb4f36bdc51ec00a2efec3f065bf986b.jpg"
-              style={{ height: "100%", width: "100%", borderRadius: "50%", padding: "1rem" }}
+              style={{
+                height: "100%",
+                width: "100%",
+                borderRadius: "50%",
+              }}
             />
           </Box>
         </Grid>
 
-        <Grid
-          item
-          xs={12}
-        >
-          <Typography component="h2" style={{ color: "#FFF" }} variant="subtitle1" >
-            <Box textAlign="center" fontWeight="fontWeightBold" letterSpacing={1} >
+        <Grid item xs={12}>
+          <Typography
+            component="h2"
+            style={{ color: "#FFF" }}
+            variant="subtitle1"
+          >
+            <Box
+              fontWeight="fontWeightBold"
+              letterSpacing={1}
+              textAlign="center"
+            >
               Bienvenide a
-          </Box>
-            <Box mb={2.5} textAlign="center" fontWeight="fontWeightBold" >
+            </Box>
+            <Box fontWeight="fontWeightBold" mb={2.5} textAlign="center">
               Healthy Dev
-          </Box>
+            </Box>
           </Typography>
         </Grid>
 
@@ -94,7 +101,7 @@ const LoginMaterial = () => {
             >
               <InputLabel htmlFor="filled-adornment-password">
                 Password
-            </InputLabel>
+              </InputLabel>
               <FilledInput
                 endAdornment={
                   <InputAdornment position="end">
@@ -119,7 +126,7 @@ const LoginMaterial = () => {
                 style={{ color: "gray" }}
               >
                 Assistive Text
-            </FormHelperText>
+              </FormHelperText>
             </FormControl>
           </Box>
         </Grid>
@@ -131,23 +138,23 @@ const LoginMaterial = () => {
               style={{
                 background: "#26B0A1",
                 borderRadius: "1rem",
-                width: "100%",
+                width: "100%"
               }}
               variant="contained"
               width="100%"
             >
               LOGIN
-          </Button>
+            </Button>
             <Typography component="h2" variant="caption">
               <Link color="inherit" href="#">
                 ¿Olvidaste tu contraseña?
-            </Link>
+              </Link>
             </Typography>
             <Box mt={1}>
               <Typography align="center" variant="button">
                 <Link color="inherit" href="#">
                   CREAR CUENTA
-            </Link>
+                </Link>
               </Typography>
             </Box>
           </Box>
