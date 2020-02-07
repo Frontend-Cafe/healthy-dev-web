@@ -11,17 +11,17 @@ import {
   InputLabel,
   InputAdornment,
   FormHelperText,
-  FormControl,
+  FormControl
 } from "@material-ui/core";
-import { Visibility, VisibilityOff } from "@material-ui/icons"
+import { Visibility, VisibilityOff } from "@material-ui/icons";
 import { spacing } from "@material-ui/system";
 
 import "./index.css";
 
 const LoginMaterial = () => {
   const [values, setValues] = useState({
-    password: '',
-    showPassword: false,
+    password: "",
+    showPassword: false
   });
 
   const handleChange = prop => event => {
@@ -58,7 +58,7 @@ const LoginMaterial = () => {
               style={{
                 height: "100%",
                 width: "100%",
-                borderRadius: "50%",
+                borderRadius: "50%"
               }}
             />
           </Box>
