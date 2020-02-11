@@ -1,9 +1,11 @@
 import React from "react";
+// Hooks
 import { useFormik } from "formik";
+// Styles
+import "./Register.scss";
+// Components
 import { Typography, Button, Grid, TextField, Container, FormHelperText } from "@material-ui/core";
 
-//Styles
-import "./Register.scss";
 import RegisterSchema from "./RegisterSchema";
 
 const Register = () => {
@@ -28,7 +30,6 @@ const Register = () => {
       console.log(values);
     },
   });
-  console.log(formik);
   return (
     <Container className="outer-container">
       <form className="inner-container" onSubmit={formik.handleSubmit}>
