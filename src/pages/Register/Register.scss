@@ -65,7 +65,11 @@ color: $white;
   border-radius: 200px;
   height: 2.8rem;
   font-size: 1rem;
+
   &.disabled {
+    background-color: $green;
+  }
+  &.Mui-disabled {
     background-color: $green;
   }
   &.containedSecondary {
@@ -77,6 +81,9 @@ color: $white;
 .MuiButton-outlinedSecondary.button:hover {
   background-color: $green;
   border: none;
+  &.Mui-disabled {
+    background-color: $green;
+  }
 }
 
 .MuiTypography-root h1 {
