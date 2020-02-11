@@ -1,5 +1,10 @@
+$dark-blue: #112045;
+$green: #26B0A1;
+$white: #FFFFFF;
+$grey: #E8E8E8;
+
 .MuiContainer-root.outer-container {
-  background-color: #112045;
+  background-color: $dark-blue;
   height: 100vh;
   width: 100vw;
 }
@@ -17,7 +22,7 @@
 }
 
 .MuiContainer-root.MuiFilledInput-root {
-  background-color: #E8E8E8;
+  background-color: $grey;
 }
 
 .MuiGrid-item.title-item {
@@ -26,11 +31,11 @@
 }
 
 .MuiFormHelperText-root.white-text {
-  color: #FFFFFF;
+  color: $white;
 }
 
 .MuiTextField-root {
-  background-color: #E8E8E8;
+  background-color: $grey;
 }
 
 .MuiTextField-root label {
@@ -42,35 +47,35 @@
 .MuiInputBase-input.MuiFilledInput-input {
   line-height: 24px;
   padding: 1rem 1rem;
-  background-color: #E8E8E8;
+  background-color: $grey;
 }
 
 .MuiTextField-root.MuiFormHelperText-root input {
-  color: #FFFFFF;
+  color: $white;
 }
 
 .MuiTypography-root {
-color: #FFFFFF;
+color: $white;
 }
 
 .MuiButton-root.button {
-  color: #FFFFFF;
-  background-color: #26B0A1;
+  color: $white;
+  background-color: $green;
   border: none;
   border-radius: 200px;
   height: 2.8rem;
   font-size: 1rem;
   &.disabled {
-    background-color: #26B0A1;
+    background-color: $green;
   }
   &.containedSecondary {
-    background-color: #26B0A1;
+    background-color: $green;
   }
   
 }
 
 .MuiButton-outlinedSecondary.button:hover {
-  background-color: #26B0A1;
+  background-color: $green;
   border: none;
 }
 

@@ -1,14 +1,37 @@
 import React from "react";
-import { withFormik, Form } from "formik";
-import * as Yup from "yup";
+import { useFormik } from "formik";
 import { Typography, Button, Grid, TextField, Container, FormHelperText } from "@material-ui/core";
+
 //Styles
 import "./Register.scss";
+import RegisterSchema from "./RegisterSchema";
 
-const Register = ({ values, errors, touched, isSubmitting, handleChange, handleBlur }) => {
+const Register = () => {
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      password: "",
+    },
+    initialErrors: {
+      name: false,
+      email: false,
+      password: false,
+    },
+    initialTouched: {
+      name: false,
+      email: false,
+      password: false,
+    },
+    validationSchema: RegisterSchema,
+    handleSubmit(values) {
+      console.log(values);
+    },
+  });
+  console.log(formik);
   return (
     <Container className="outer-container">
-      <Form className="inner-container">
+      <form className="inner-container" onSubmit={formik.handleSubmit}>
         <Grid container alignItems="center" direction="row" justify="center">
           <Grid item className="title-item">
             <Typography variant="h1">Bienvenide a Healthy Dev</Typography>
@@ -18,17 +41,17 @@ const Register = ({ values, errors, touched, isSubmitting, handleChange, handleB
               fullWidth
               required
               aria-describedby="Nombre"
-              error={touched.name && errors.name}
+              error={formik.touched.name && formik.errors.name}
               id="name"
               name="name"
               placeholder="Nombre"
-              value={values.name}
+              value={formik.values.name}
               variant="filled"
-              onBlur={handleBlur}
-              onChange={handleChange}
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
-            <FormHelperText error={touched.name && errors.name} variant="filled">
-              {touched.name && errors.name}
+            <FormHelperText error={formik.touched.name && formik.errors.name} variant="filled">
+              {formik.touched.name && formik.errors.name}
             </FormHelperText>
           </Grid>
           <Grid item className="email-item">
@@ -36,17 +59,17 @@ const Register = ({ values, errors, touched, isSubmitting, handleChange, handleB
               fullWidth
               required
               aria-describedby="Email"
-              error={touched.email && errors.email}
+              error={formik.touched.email && formik.errors.email}
               id="email"
               name="email"
               placeholder="Email"
-              value={values.email}
+              value={formik.values.email}
               variant="filled"
-              onBlur={handleBlur}
-              onChange={handleChange}
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
-            <FormHelperText error={touched.email && errors.email} variant="filled">
-              {touched.email && errors.email}
+            <FormHelperText error={formik.touched.email && formik.errors.email} variant="filled">
+              {formik.touched.email && formik.errors.email}
             </FormHelperText>
           </Grid>
           <Grid item className="password-item">
@@ -54,18 +77,18 @@ const Register = ({ values, errors, touched, isSubmitting, handleChange, handleB
               fullWidth
               required
               aria-describedby="Crear Password"
-              error={touched.password && errors.password}
+              error={formik.touched.password && formik.errors.password}
               id="password"
               name="password"
               placeholder="Crear Password"
               type="password"
-              value={values.password}
+              value={formik.values.password}
               variant="filled"
-              onBlur={handleBlur}
-              onChange={handleChange}
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
-            <FormHelperText error={touched.password && errors.password} variant="filled">
-              {touched.password && errors.password}
+            <FormHelperText error={formik.touched.password && formik.errors.password} variant="filled">
+              {formik.touched.password && formik.errors.password}
             </FormHelperText>
           </Grid>
           <Grid item>
@@ -73,7 +96,7 @@ const Register = ({ values, errors, touched, isSubmitting, handleChange, handleB
               fullWidth
               className="button"
               color="secondary"
-              disabled={isSubmitting}
+              disabled={formik.isSubmitting}
               type="submit"
               variant="outlined"
             >
@@ -81,33 +104,9 @@ const Register = ({ values, errors, touched, isSubmitting, handleChange, handleB
             </Button>
           </Grid>
         </Grid>
-      </Form>
+      </form>
     </Container>
   );
 };
 
-const FormikRegister = withFormik({
-  mapPropsToValues({ name, email, password }) {
-    return {
-      name: name || "",
-      email: email || "",
-      password: password || "",
-    };
-  },
-  validationSchema: Yup.object().shape({
-    name: Yup.string()
-      .required("Por favor ingrese un nombre")
-      .min(3, "Mínimo 3 caracteres."),
-    email: Yup.string()
-      .email("Ingrese un email válido.")
-      .required("Campo obligatorio."),
-    password: Yup.string()
-      .min(6, "Mínimo 6 caracteres.")
-      .required("Campo obligatorio."),
-  }),
-  handleSubmit(values) {
-    console.log(values);
-  },
-})(Register);
-
-export default FormikRegister;
+export default Register;
