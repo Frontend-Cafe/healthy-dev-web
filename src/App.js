@@ -10,18 +10,14 @@ import { theme } from "styles/theme";
 import TipList from "components/TipList/TipList";
 import TipsLayout from "components/TipsLayout/TipsLayout";
 
-import Register from "./pages/Register/Register";
-
 const App = () => (
   <ThemeProvider theme={theme}>
     <div className="App">
-      <Register />
+      <TipsLayout sectionTitle="Fitness Tips">
+        <TipList tipStates={tipStates} />
+      </TipsLayout>
     </div>
   </ThemeProvider>
 );
 
 export default App;
-
-// <TipsLayout sectionTitle="Fitness Tips">
-//         <TipList tipStates={tipStates} />
-//       </TipsLayout>
