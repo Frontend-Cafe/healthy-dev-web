@@ -42,7 +42,7 @@ const Register = () => {
               fullWidth
               required
               aria-describedby="Nombre"
-              error={formik.touched.name && formik.errors.name}
+              error={formik.errors.name && formik.touched.name}
               id="name"
               name="name"
               placeholder="Nombre"
@@ -51,8 +51,8 @@ const Register = () => {
               onBlur={formik.handleBlur}
               onChange={formik.handleChange}
             />
-            <FormHelperText error={formik.touched.name && formik.errors.name} variant="filled">
-              {formik.touched.name && formik.errors.name}
+            <FormHelperText error={formik.errors.name && formik.touched.name} variant="filled">
+              {formik.errors.name && formik.touched.name}
             </FormHelperText>
           </Grid>
           <Grid item className="email-item">
@@ -60,7 +60,7 @@ const Register = () => {
               fullWidth
               required
               aria-describedby="Email"
-              error={formik.touched.email && formik.errors.email}
+              error={formik.errors.email && formik.touched.email}
               id="email"
               name="email"
               placeholder="Email"
@@ -69,8 +69,8 @@ const Register = () => {
               onBlur={formik.handleBlur}
               onChange={formik.handleChange}
             />
-            <FormHelperText error={formik.touched.email && formik.errors.email} variant="filled">
-              {formik.touched.email && formik.errors.email}
+            <FormHelperText error={formik.errors.email && formik.touched.email} variant="filled">
+              {formik.errors.email && formik.touched.email}
             </FormHelperText>
           </Grid>
           <Grid item className="password-item">
@@ -78,7 +78,7 @@ const Register = () => {
               fullWidth
               required
               aria-describedby="Crear Password"
-              error={formik.touched.password && formik.errors.password}
+              error={formik.errors.password && formik.touched.password}
               id="password"
               name="password"
               placeholder="Crear Password"
@@ -88,8 +88,8 @@ const Register = () => {
               onBlur={formik.handleBlur}
               onChange={formik.handleChange}
             />
-            <FormHelperText error={formik.touched.password && formik.errors.password} variant="filled">
-              {formik.touched.password && formik.errors.password}
+            <FormHelperText error={formik.errors.password && formik.touched.password} variant="filled">
+              {formik.errors.password && formik.touched.password}
             </FormHelperText>
           </Grid>
           <Grid item>
