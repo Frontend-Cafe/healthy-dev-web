@@ -1,9 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Hooks
 import { ThemeProvider } from "@material-ui/core";
-// Data
-import { ROUTES } from "lib/routes";
+// Tip data from mocky API: "http://www.mocky.io/v2/5e2d10a43000005c00e77c8b"
 import tipStates from "lib/mockData";
 // Style
 import "./App.scss";
@@ -15,15 +13,9 @@ import TipsLayout from "components/TipsLayout/TipsLayout";
 const App = () => (
   <ThemeProvider theme={theme}>
     <div className="App">
-      <Router>
-        <Switch>
-          <TipsLayout sectionTitle="Fitness Tips">
-            <Route exact path={ROUTES.dashboard}>
-              <TipList tipStates={tipStates} />
-            </Route>
-          </TipsLayout>
-        </Switch>
-      </Router>
+      <TipsLayout sectionTitle="Fitness Tips">
+        <TipList tipStates={tipStates} />
+      </TipsLayout>
     </div>
   </ThemeProvider>
 );
