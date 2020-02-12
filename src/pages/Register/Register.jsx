@@ -15,20 +15,11 @@ const Register = () => {
       email: "",
       password: "",
     },
-    initialErrors: {
-      name: false,
-      email: false,
-      password: false,
-    },
-    initialTouched: {
-      name: false,
-      email: false,
-      password: false,
-    },
     validationSchema: RegisterSchema,
     handleSubmit(values) {
       console.log(values);
     },
+    validateOnChange: false,
   });
   return (
     <Container className="outer-container">
