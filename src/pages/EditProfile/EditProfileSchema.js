@@ -9,7 +9,7 @@ const RegisterSchema = yup.object().shape({
     .string()
     .email("Ingrese un email válido.")
     .required("Campo obligatorio."),
-  newPassword: yup
+  password: yup
     .string()
     .min(6, "Mínimo 6 caracteres.")
     .required("Campo obligatorio."),

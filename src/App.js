@@ -6,18 +6,21 @@ import tipStates from "lib/mockData";
 // Style
 import "./App.scss";
 import { theme } from "styles/theme";
+
 // Components
-import TipList from "components/TipList/TipList";
-import TipsLayout from "components/TipsLayout/TipsLayout";
+import EditProfile from "./pages/EditProfile/EditProfile";
+// import TipList from "components/TipList/TipList";
+// import TipsLayout from "components/TipsLayout/TipsLayout";
 
 const App = () => (
   <ThemeProvider theme={theme}>
     <div className="App">
-      <TipsLayout sectionTitle="Fitness Tips">
-        <TipList tipStates={tipStates} />
-      </TipsLayout>
+      <EditProfile tipState={tipStates[0]} />
     </div>
   </ThemeProvider>
 );
 
 export default App;
+// <TipsLayout sectionTitle="Fitness Tips">
+//         <TipList tipStates={tipStates} />
+//       </TipsLayout>
