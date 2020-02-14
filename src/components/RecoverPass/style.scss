@@ -1,0 +1,57 @@
+.recover-pass {
+    text-align: center;
+    figure {
+        margin: 0 0 55px 0;
+        box-shadow: none;
+        img {
+            display: unset;
+            width: 316px;
+            height: 316px;  
+            border-radius: 50%;
+        }
+
+        div:last-child {
+            padding: 31px 0 0 0;
+
+            a{
+                font-size: 20px;
+                line-height: 23px;
+            }
+        }
+    }
+
+    form { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        div {
+            width: 328px;
+            height: 56px;
+            font-size: 16px;
+            color: rgba(0,0,0 ,0.6);
+            letter-spacing: 0.15px;
+            line-height: 24px;
+        }
+
+        button {
+            width: 319px;
+            height: 34px;
+            margin-top: 57px;
+            color: #fff;
+            background-color: #26B0A1;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            background-color: #26B0A1;
+        }
+    }
+}
