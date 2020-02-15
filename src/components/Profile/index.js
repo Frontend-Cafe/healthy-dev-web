@@ -1,4 +1,6 @@
 import React from "react";
+// Routing
+import { Link } from "react-router-dom";
 //Import Material-ui
 import { Box } from "@material-ui/core";
 //Import Component
@@ -13,8 +15,12 @@ const Profile = () => (
     <ProfileCarrousel items={tipsData} titleSection="Mis Fitness Tips" />
     <ProfileCarrousel items={tipsData} titleSection="Mi Alimentación Tips" />
 
-    <a href="/">Editar Mi Perfil</a>
-    <a href="/">Salir De Mi Cuenta</a>
+    <Link to="/edit-profile">
+      <p>Editar Mi Perfil</p>
+    </Link>
+    <Link to="/">
+      <p>Salir De Mi Cuenta</p>
+    </Link>
   </Box>
 );
 export default Profile;

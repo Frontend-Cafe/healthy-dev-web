@@ -99,17 +99,17 @@ const EditProfile = ({ user, avatar }) => {
               error={formik.errors.newPassword && formik.touched.newPassword}
               id="newPassword"
               InputProp={{
-                endAdornment: `
-              <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={() => setShowNewPass(!showNewPass)}
-                    onMouseDown={handleMouseDownPassword}
-                  >
-                    {formik.values.showNewPassword ? <Visibility /> : <VisibilityOff />}
-                  </IconButton>
-                </InputAdornment>
-              `,
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      aria-label="toggle password visibility"
+                      onClick={() => setShowNewPass(!showNewPass)}
+                      onMouseDown={handleMouseDownPassword}
+                    >
+                      {formik.values.showNewPassword ? <Visibility /> : <VisibilityOff />}
+                    </IconButton>
+                  </InputAdornment>
+                ),
               }}
               name="newPassword"
               placeholder="Crear Password"
@@ -128,19 +128,21 @@ const EditProfile = ({ user, avatar }) => {
               fullWidth
               required
               aria-describedby="Repetir password"
-              endAdornment={
-                <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={() => setShowConfirmPass(!showConfirmPass)}
-                    onMouseDown={handleMouseDownPassword}
-                  >
-                    {formik.values.showNewPassword ? <Visibility /> : <VisibilityOff />}
-                  </IconButton>
-                </InputAdornment>
-              }
               error={formik.errors.confirmNewPassword && formik.touched.confirmNewPassword}
               id="confirmNewPassword"
+              InputProp={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      aria-label="toggle password visibility"
+                      onClick={() => setShowConfirmPass(!showConfirmPass)}
+                      onMouseDown={handleMouseDownPassword}
+                    >
+                      {formik.values.showNewPassword ? <Visibility /> : <VisibilityOff />}
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
               name="confirmNewPassword"
               placeholder="Crear Password"
               type={showConfirmPass ? "text" : "password"}

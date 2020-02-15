@@ -1,20 +1,30 @@
 import React from "react";
-//icons
+// Routing
+import { Link } from "react-router-dom";
+// icons
 import HomeIcon from "@material-ui/icons/Home";
 import KitchenIcon from "@material-ui/icons/Kitchen";
 import PersonIcon from "@material-ui/icons/Person";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-//components
+// components
 import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
-//style
+// style
 import "./BottomNavbar.sass";
 
 const BottomNavbar = () => (
   <BottomNavigation className="bottomNav">
-    <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
+    <Link to="/">
+      <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
+    </Link>
+    <Link to="/">
+      <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
+    </Link>
+    <Link to="/">
+      <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
+    </Link>
+    <Link to="/profile">
+      <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
+    </Link>
   </BottomNavigation>
 );
 
