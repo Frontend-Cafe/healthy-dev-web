@@ -16,10 +16,10 @@ const BottomNavbar = () => (
     <Link to="/">
       <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
     </Link>
-    <Link to="/">
+    <Link to="/comida">
       <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
     </Link>
-    <Link to="/">
+    <Link to="/salud">
       <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
     </Link>
     <Link to="/profile">

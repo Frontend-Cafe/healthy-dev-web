@@ -12,21 +12,37 @@ import { theme } from "styles/theme";
 import TipList from "components/TipList/TipList";
 import TipsLayout from "components/TipsLayout/TipsLayout";
 import Profile from "components/Profile/index";
-import EditProfile from "pages/EditProfile/EditProfile";
+
+import EditProfile from "./pages/EditProfile/EditProfile";
 
 const App = () => (
   <Router>
     <ThemeProvider theme={theme}>
       <Switch>
         <div className="App">
-          <TipsLayout sectionTitle="Fitness Tips">
-            <Route exact path="/">
+          <Route exact path="/">
+            <TipsLayout sectionTitle="Home">
               <TipList tipStates={tipStates} />
-            </Route>
-            <Route path="/profile">
+            </TipsLayout>
+          </Route>
+
+          <Route path="/comida">
+            <TipsLayout sectionTitle="Comida">
+              <TipList tipStates={tipStates} />
+            </TipsLayout>
+          </Route>
+
+          <Route path="/salud">
+            <TipsLayout sectionTitle="Salud">
+              <TipList tipStates={tipStates} />
+            </TipsLayout>
+          </Route>
+
+          <Route path="/profile">
+            <TipsLayout sectionTitle="Perfil">
               <Profile />
-            </Route>
-          </TipsLayout>
+            </TipsLayout>
+          </Route>
           <Route path="/edit-profile">
             <EditProfile />
           </Route>
