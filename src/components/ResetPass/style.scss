@@ -1,0 +1,87 @@
+.reset-pass {
+    text-align: center;
+    figure {
+        margin: 0 0 37px 0;
+        box-shadow: none;
+
+        img {
+            display: unset;
+            width: 205px;
+            height: 205px;
+            border-radius: 50%;
+        }
+        
+        div:last-child {
+            padding: 28px 0 0 0;
+            
+            p {
+                font-size: 20px;
+                line-height: 23px;
+            }
+            p:first-child{
+                padding-bottom: 37px;
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            margin: 0 0 11px 0;
+        }
+        div:last-of-type {
+            margin: 0 ;
+        }
+        
+        div>div {
+            border: 1px solid black;
+            width: 328px;
+            height: 56px;
+
+            input {
+                padding-left: 16px;
+            }
+        }
+
+        div>p {
+            margin: 0;
+            padding: 5px 0 0 16px;
+            
+        }
+
+
+        span>button {
+            margin: 0;
+            width: 10px;
+            padding-right: 21px;
+            color: black;
+            background-color: transparent;
+        }
+
+        span>button:hover{
+            background-color: transparent;
+        }
+
+        button {
+            width: 319px;
+            height: 34px;
+            margin-top: 57px;
+            color: #fff;
+            background-color: #26B0A1;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.75px;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            background-color: #26B0A1;
+        }
+    }
+}
