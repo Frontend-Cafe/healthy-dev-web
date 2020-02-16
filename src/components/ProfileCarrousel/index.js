@@ -11,9 +11,9 @@ const ProfileCarrousel = ({ titleSection, items }) => (
     <Box component="header">
       <Typography component="h2">{titleSection}</Typography>
     </Box>
-    <Box>
+    <Box className="carrousel-row">
       {items.map(item => (
-        <CarrouselCard key={item.id} image={item.img} title={item.title} />
+        <CarrouselCard key={item.id} image={item.media} title={item.title} />
       ))}
     </Box>
   </Box>

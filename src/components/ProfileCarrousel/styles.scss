@@ -1,3 +1,5 @@
+@import "../../styles/variables";
+
 .profile-carrousel {
     margin-bottom: 33px;
 
@@ -14,21 +16,24 @@
 
     div {
         display: flex;
-        justify-content: center;
         padding: 0 11px; //Padding a 19px cuando el body este a 0px.
-        
+        overflow-x: auto;
+        max-height: 100vh;
         figure {
+            scroll-snap-align: center;
+            max-width: 50vw;
             margin: 0 6.5px;
             border-radius: 0;
             box-shadow: none;
-            
+            flex: 0 0 auto;
+            background-color: $background-color;
             img {
-                width: 162px;
+                width: 100%;
                 height: 127px;
             }
 
             div:last-child {
-                padding: 9px 0 0 0 ;
+                padding: 9px 0 0 0;
             }
         } 
         figure:first-child {

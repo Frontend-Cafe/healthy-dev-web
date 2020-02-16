@@ -6,7 +6,7 @@ import { Typography } from "@material-ui/core";
 import SearchBar from "components/SearchBar/SearchBar";
 
 const Header = ({ isSearchBarVisible, sectionTitle }) => (
-  <>
+  <div className="main-header">
     <Typography align="center" className="mainTitle" color="primary" variant="h1">
       Healthy App
     </Typography>
@@ -14,7 +14,7 @@ const Header = ({ isSearchBarVisible, sectionTitle }) => (
     <Typography align="center" className="mainTitle" color="secondary" variant="h3">
       {sectionTitle}
     </Typography>
-  </>
+  </div>
 );
 
 export default Header;
