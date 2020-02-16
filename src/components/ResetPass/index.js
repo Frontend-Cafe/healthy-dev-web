@@ -1,19 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 //Import Material-UI
-import {
-  Box,
-  FormControl,
-  Input,
-  FormHelperText,
-  InputAdornment,
-  IconButton,
-  Card,
-  CardMedia,
-  Typography,
-  CardContent,
-  Button,
-} from "@material-ui/core";
-import { Visibility, VisibilityOff } from "@material-ui/icons";
+import { Box, Card, CardMedia, Typography, CardContent, Button } from "@material-ui/core";
 //Import Formik
 import { useFormik } from "formik";
 //Import Styles
@@ -21,25 +8,23 @@ import "./style.scss";
 //Import DATA
 import Logo from "assets/images/sushiMochi.jpg";
 
+import InputPassword from "../InputPassword";
+
 //Import SchemaValidation
-import Schema from "./schema";
+import ResetPassSchema from "./schema";
 
 const ResetPass = () => {
   const email = "TuEmail@dominio.com";
-  const [showNewPass, setShowNewPass] = useState(false);
-  const [showConfirmPass, setShowConfirmPass] = useState(false);
 
-  const formik = useFormik({
+  const { values, handleSubmit, errors, touched, handleChange } = useFormik({
     initialValues: {
       newPassword: "",
       confirmPassword: "",
     },
-    validationSchema: Schema,
+    validationSchema: ResetPassSchema,
     validateOnChange: false,
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-      document.getElementById("newPassword").value = "";
-      document.getElementById("confirmPassword").value = "";
+    onSubmit: (values, { resetForm }) => {
+      resetForm();
     },
   });
 
@@ -48,59 +33,32 @@ const ResetPass = () => {
       <Card component="figure">
         <CardMedia alt="App Logo" component="img" image={Logo} />
         <CardContent>
-          <Typography component="p">Resetear Password</Typography>
+          <Typography component="p">Reiniciar Password</Typography>
           <Typography component="p">{email}</Typography>
         </CardContent>
       </Card>
-      <form onSubmit={formik.handleSubmit}>
-        <FormControl>
-          <Input
-            endAdornment={
-              <InputAdornment component="span" position="end">
-                <IconButton
-                  arial-label="toggle password visibility"
-                  onClick={() => setShowNewPass(!showNewPass)}
-                  onMouseDown={e => e.preventDefault}
-                >
-                  {showNewPass ? <Visibility /> : <VisibilityOff />}
-                </IconButton>
-              </InputAdornment>
-            }
-            error={formik.errors.newPassword && formik.touched.newPassword}
-            id="newPassword"
-            placeholder="New Password"
-            type={showNewPass ? "text" : "password"}
-            value={formik.values.newPassword}
-            onChange={formik.handleChange}
-          />
-          <FormHelperText>{formik.errors.newPassword}</FormHelperText>
-        </FormControl>
 
-        <FormControl>
-          <Input
-            endAdornment={
-              <InputAdornment component="span" position="end">
-                <IconButton
-                  arial-label="toggle password visibility"
-                  onClick={() => setShowConfirmPass(!showConfirmPass)}
-                  onMouseDown={e => e.preventDefault}
-                >
-                  {showConfirmPass ? <Visibility /> : <VisibilityOff />}
-                </IconButton>
-              </InputAdornment>
-            }
-            error={formik.errors.confirmPassword && formik.touched.confirmPassword}
-            id="confirmPassword"
-            placeholder="Confirm Password"
-            type={showConfirmPass ? "text" : "password"}
-            value={formik.values.ConfirmPassword}
-            onChange={formik.handleChange}
-          />
-          <FormHelperText>{formik.errors.confirmPassword}</FormHelperText>
-        </FormControl>
+      <form onSubmit={handleSubmit}>
+        <InputPassword
+          error={errors.newPassword && touched.newPassword}
+          helperText={errors.newPassword}
+          name="newPassword"
+          placeholder="New Password"
+          value={values.newPassword}
+          onChange={handleChange}
+        />
+
+        <InputPassword
+          error={errors.confirmPassword && touched.confirmPassword}
+          helperText={errors.confirmPassword}
+          name="confirmPassword"
+          placeholder="Confirm Password"
+          value={values.confirmPassword}
+          onChange={handleChange}
+        />
 
         <Button type="submit" variant="outlined">
-          Reset Password
+          Reiniciar Contraseña
         </Button>
       </form>
     </Box>

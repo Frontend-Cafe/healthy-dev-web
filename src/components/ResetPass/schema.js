@@ -1,7 +1,7 @@
 //Import Yup
 import * as yup from "yup";
 
-const Schema = yup.object().shape({
+const ResetPassSchema = yup.object().shape({
   newPassword: yup
     .string()
     .required("Campo obligatorio.")
@@ -14,4 +14,4 @@ const Schema = yup.object().shape({
     }),
 });
 
-export default Schema;
+export default ResetPassSchema;

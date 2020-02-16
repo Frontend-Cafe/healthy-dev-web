@@ -9,18 +9,17 @@ import "./style.scss";
 import Logo from "assets/images/sushiMochi.jpg";
 
 //Import SchemaValidation
-import Schema from "./schema";
+import RecoverPassSchema from "./schema";
 
 const RecoverPass = () => {
-  const formik = useFormik({
+  const { values, handleSubmit, handleChange, errors, touched } = useFormik({
     initialValues: {
       email: "",
     },
-    validationSchema: Schema,
+    validationSchema: RecoverPassSchema,
     validateOnChange: false,
-    onSubmit: values => {
-      alert(JSON.stringify(values));
-      document.getElementById("userEmail").value = "";
+    onSubmit: (values, { resetForm }) => {
+      resetForm();
     },
   });
   return (
@@ -34,20 +33,19 @@ const RecoverPass = () => {
         </CardContent>
       </Card>
 
-      <form onSubmit={formik.handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <TextField
           fullWidth
-          error={formik.errors.email && formik.touched.email}
-          helperText={formik.errors.email}
-          id="userEmail"
+          error={errors.email && touched.email}
+          helperText={errors.email}
           name="email"
           placeholder="Email"
-          value={formik.values.email}
+          value={values.email}
           variant="outlined"
-          onChange={formik.handleChange}
+          onChange={handleChange}
         />
         <Button type="submit" variant="outlined">
-          Reset Password
+          Reiniciar Contraseña
         </Button>
       </form>
     </Box>
