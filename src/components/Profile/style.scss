@@ -9,8 +9,21 @@
         line-height: 23px;
         margin-left: 40px;
     }
-
+    
     p:first-of-type{
         margin-bottom: 23px;
+    }
+
+}
+
+.links {
+    margin-bottom: 5rem;
+    a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        line-height: 23px;
+        height: 2rem;
     }
 }
