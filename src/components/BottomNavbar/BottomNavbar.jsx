@@ -1,6 +1,6 @@
 import React from "react";
 // Routing
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // icons
 import HomeIcon from "@material-ui/icons/Home";
 import KitchenIcon from "@material-ui/icons/Kitchen";
@@ -13,18 +13,35 @@ import "./BottomNavbar.sass";
 
 const BottomNavbar = () => (
   <BottomNavigation className="bottomNav">
-    <Link to="/">
-      <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
-    </Link>
-    <Link to="/comida">
-      <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
-    </Link>
-    <Link to="/salud">
-      <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
-    </Link>
-    <Link to="/profile">
-      <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
-    </Link>
+    <BottomNavigationAction
+      exact
+      activeStyle={{ color: "white", width: "35px", borderBottom: "solid 5px white" }}
+      component={NavLink}
+      icon={<HomeIcon />}
+      showLabel={false}
+      to={"/"}
+    />
+    <BottomNavigationAction
+      activeStyle={{ color: "white", width: "35px", borderBottom: "solid 5px white" }}
+      component={NavLink}
+      icon={<KitchenIcon />}
+      showLabel={false}
+      to="/comida"
+    />
+    <BottomNavigationAction
+      activeStyle={{ color: "white", width: "35px", borderBottom: "solid 5px white" }}
+      component={NavLink}
+      icon={<FavoriteIcon />}
+      showLabel={false}
+      to="/salud"
+    />
+    <BottomNavigationAction
+      activeStyle={{ color: "white", width: "35px", borderBottom: "solid 5px white" }}
+      component={NavLink}
+      icon={<PersonIcon />}
+      showLabel={false}
+      to="/profile"
+    />
   </BottomNavigation>
 );
 

@@ -8,12 +8,12 @@ import ProfileCarrousel from "components/ProfileCarrousel";
 //Import Style
 import "./style.scss";
 //Import Data
-import { tipsData } from "lib/mockData";
+// import { tipsData } from "lib/mockData";
 
-const Profile = () => (
+const Profile = ({ tipStates }) => (
   <Box className="profile" component="section">
-    <ProfileCarrousel items={tipsData} titleSection="Mis Fitness Tips" />
-    <ProfileCarrousel items={tipsData} titleSection="Mi Alimentación Tips" />
+    <ProfileCarrousel items={tipStates} titleSection="Mis Fitness Tips" />
+    <ProfileCarrousel items={tipStates} titleSection="Mi Alimentación Tips" />
 
     <Link to="/edit-profile">
       <p>Editar Mi Perfil</p>

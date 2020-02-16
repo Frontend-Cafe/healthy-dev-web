@@ -18,8 +18,8 @@ import EditProfile from "./pages/EditProfile/EditProfile";
 const App = () => (
   <Router>
     <ThemeProvider theme={theme}>
-      <Switch>
-        <div className="App">
+      <div className="App">
+        <Switch>
           <Route exact path="/">
             <TipsLayout sectionTitle="Home">
               <TipList tipStates={tipStates} />
@@ -39,15 +39,15 @@ const App = () => (
           </Route>
 
           <Route path="/profile">
-            <TipsLayout sectionTitle="Perfil">
-              <Profile />
+            <TipsLayout isSearchBarVisible={false} sectionTitle="Perfil">
+              <Profile tipStates={tipStates} />
             </TipsLayout>
           </Route>
           <Route path="/edit-profile">
             <EditProfile />
           </Route>
-        </div>
-      </Switch>
+        </Switch>
+      </div>
     </ThemeProvider>
   </Router>
 );
