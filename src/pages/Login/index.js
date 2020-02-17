@@ -37,18 +37,13 @@ const LoginMaterial = () => {
   };
   return (
     <>
-      <Grid
-        container
-        direction="column"
-        justify="center"
-        spacing={0}
-      >
-        <Box pr={"1rem"} pl={"1rem"}>
+      <Grid container direction="column" justify="center" spacing={0}>
+        <Box pl={"1rem"} pr={"1rem"}>
           <Grid item xs={12}>
             <Box mb={2} mt={2}>
               <img
-                className="img-profile"
                 alt=""
+                className="img-profile"
                 src="https://i.pinimg.com/originals/eb/4f/36/eb4f36bdc51ec00a2efec3f065bf986b.jpg"
               />
             </Box>
@@ -56,8 +51,8 @@ const LoginMaterial = () => {
 
           <Grid item xs={12}>
             <Typography
-              component="h2"
               className="title-name"
+              component="h2"
               variant="subtitle1"
             >
               <Box
@@ -66,32 +61,29 @@ const LoginMaterial = () => {
                 textAlign="center"
               >
                 Bienvenide a
-            </Box>
+              </Box>
               <Box fontWeight="fontWeightBold" mb={2.5} textAlign="center">
                 Healthy Dev
-            </Box>
+              </Box>
             </Typography>
           </Grid>
 
           <Grid item xs={12}>
-            <Box mb={1} >
+            <Box mb={1}>
               <TextField
                 autoComplete="current-email"
+                className="email-input"
                 helperText="Assistive text"
                 id="filled-password-input"
                 label="Email"
-                className="email-input"
                 type="email"
                 variant="filled"
               />
 
-              <FormControl
-                className="form-control-input"
-                variant="filled"
-              >
+              <FormControl className="form-control-input" variant="filled">
                 <InputLabel htmlFor="filled-adornment-password">
                   Password
-              </InputLabel>
+                </InputLabel>
                 <FilledInput
                   endAdornment={
                     <InputAdornment position="end">
@@ -101,7 +93,11 @@ const LoginMaterial = () => {
                         onClick={handleClickShowPassword}
                         onMouseDown={handleMouseDownPassword}
                       >
-                        {values.showPassword ? <Visibility /> : <VisibilityOff />}
+                        {values.showPassword ? (
+                          <Visibility />
+                        ) : (
+                          <VisibilityOff />
+                        )}
                       </IconButton>
                     </InputAdornment>
                   }
@@ -110,34 +106,28 @@ const LoginMaterial = () => {
                   value={values.password}
                   onChange={handleChange("password")}
                 />
-                <FormHelperText
-                  id="filled-weight-helper-text"
-                >
+                <FormHelperText id="filled-weight-helper-text">
                   Assistive Text
-              </FormHelperText>
+                </FormHelperText>
               </FormControl>
             </Box>
           </Grid>
 
           <Grid item className="form-bottom-login" xs={12}>
             <Box mt={3}>
-              <Button
-                className="login-button"
-                variant="contained"
-                width="100%"
-              >
+              <Button className="login-button" variant="contained" width="100%">
                 LOGIN
-            </Button>
+              </Button>
               <Typography component="h2" variant="caption">
                 <Link color="inherit" href="#">
                   ¿Olvidaste tu contraseña?
-              </Link>
+                </Link>
               </Typography>
               <Box mt={1}>
                 <Typography align="center" variant="button">
                   <Link color="inherit" href="#">
                     CREAR CUENTA
-                </Link>
+                  </Link>
                 </Typography>
               </Box>
             </Box>
