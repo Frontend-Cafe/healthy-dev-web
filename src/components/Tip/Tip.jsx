@@ -4,17 +4,12 @@ import React from "react";
 // Styles
 //import "components/Tip/Tip.scss";
 // Components
-import { Avatar, Card, CardContent, CardMedia, Typography } from "@material-ui/core";
+import { Card, CardMedia, Typography } from "@material-ui/core";
 
-const Tip = ({ avatar, media, title }) => (
+const Tip = ({ media, title }) => (
   <Card square elevation={0}>
-    <Avatar alt="" src={avatar} />
-    <CardMedia component="img" image={media} title="" />
-    <CardContent>
-      <Typography component="h2" variant="subtitle2">
-        {title}
-      </Typography>
-    </CardContent>
+    <CardMedia component="img" image={media} />
+    <Typography>{title}</Typography>
   </Card>
 );
 

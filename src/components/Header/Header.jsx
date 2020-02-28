@@ -1,20 +1,20 @@
 import React from "react";
 //style
-import "./Header.sass";
+//import "./Header.sass";
 //components
-import { Typography } from "@material-ui/core";
+import { Typography, Box } from "@material-ui/core";
 import SearchBar from "components/SearchBar/SearchBar";
 
 const Header = ({ isSearchBarVisible, sectionTitle }) => (
-  <>
-    <Typography align="center" className="mainTitle" color="primary" variant="h1">
+  <Box display="flex" flexDirection="column" justifyContent="center" m={2}>
+    <Typography align="center" variant="h3">
       Healthy App
     </Typography>
     {isSearchBarVisible && <SearchBar />}
-    <Typography align="center" className="mainTitle" color="secondary" variant="h3">
+    <Typography align="center" m={2} variant="h5">
       {sectionTitle}
     </Typography>
-  </>
+  </Box>
 );
 
 export default Header;

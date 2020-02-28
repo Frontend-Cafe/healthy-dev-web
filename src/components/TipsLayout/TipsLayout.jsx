@@ -9,9 +9,9 @@ import BottomNavbar from "components/BottomNavbar/BottomNavbar";
 
 const TipsLayout = ({ isSearchBarVisible = true, children, sectionTitle }) => {
   return (
-    <Container className="container" color="primary-dark">
+    <Container disableGutters maxWidth="md">
       <Header isSearchBarVisible={isSearchBarVisible} sectionTitle={sectionTitle} />
-      <Container className="content">{children}</Container>
+      {children}
       <BottomNavbar />
     </Container>
   );

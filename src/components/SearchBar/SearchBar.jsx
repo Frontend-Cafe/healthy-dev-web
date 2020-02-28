@@ -1,14 +1,12 @@
 import React from "react";
 import SearchIcon from "@material-ui/icons/Search";
 import { TextField } from "@material-ui/core";
-import "./SearchBar.sass";
+//import "./SearchBar.sass";
 
 const SearchBar = () => (
   <TextField
-    color="primary"
-    id="standard-search"
     InputProps={{
-      endAdornment: <SearchIcon className="searchIco" />,
+      endAdornment: <SearchIcon />,
     }}
     label="Buscar"
     type="search"
