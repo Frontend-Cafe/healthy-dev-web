@@ -11,11 +11,11 @@ import TipList from "components/TipList/TipList";
 import TipsLayout from "components/TipsLayout/TipsLayout";
 
 const App = () => (
-  //<ThemeProvider theme={theme}>
-  <TipsLayout sectionTitle="Fitness Tips">
-    <TipList tipStates={tipStates} />
-  </TipsLayout>
-  //</ThemeProvider>
+  <ThemeProvider theme={theme}>
+    <TipsLayout sectionTitle="Fitness Tips">
+      <TipList tipStates={tipStates} />
+    </TipsLayout>
+  </ThemeProvider>
 );
 
 export default App;
