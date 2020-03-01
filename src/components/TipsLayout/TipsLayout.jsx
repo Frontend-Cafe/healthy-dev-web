@@ -3,7 +3,7 @@ import React from "react";
 //import { useTheme } from "@material-ui/core/styles";
 //import "./TipsLayout.sass";
 //components
-import { Container, Box, Paper } from "@material-ui/core";
+import { Container, Box } from "@material-ui/core";
 import Header from "components/Header/Header";
 import BottomNavbar from "components/BottomNavbar/BottomNavbar";
 

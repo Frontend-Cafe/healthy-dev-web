@@ -2,7 +2,7 @@ import React from "react";
 // Styles
 //import "components/TipList/TipList.scss";
 // Components
-import { Avatar, Box, Paper, IconButton, GridList, GridListTile, GridListTileBar } from "@material-ui/core";
+import { Avatar, Box, IconButton, GridList, GridListTile, GridListTileBar } from "@material-ui/core";
 import Tip from "components/Tip/Tip";
 
 const TipList = ({ tipStates }) => (

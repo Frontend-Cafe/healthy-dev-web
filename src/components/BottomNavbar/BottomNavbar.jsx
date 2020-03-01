@@ -10,12 +10,12 @@ import { BottomNavigation, BottomNavigationAction, Box } from "@material-ui/core
 //import "./BottomNavbar.sass";
 
 const BottomNavbar = () => (
-  <Box clone bgcolor="primary.main" bottom={0} component="footer" left={0} position="fixed" width={1} zIndex="appBar">
+  <Box clone bgcolor="primary.main" bottom={0} left={0} position="fixed" width={1} zIndex="appBar">
     <BottomNavigation component="footer">
-      <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
-      <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
-      <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
-      <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
+      <BottomNavigationAction icon={<HomeIcon />} showLabel={false} />
+      <BottomNavigationAction icon={<KitchenIcon />} showLabel={false} />
+      <BottomNavigationAction icon={<FavoriteIcon />} showLabel={false} />
+      <BottomNavigationAction icon={<PersonIcon />} showLabel={false} />
     </BottomNavigation>
   </Box>
 );
