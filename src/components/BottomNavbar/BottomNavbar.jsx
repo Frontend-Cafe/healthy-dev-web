@@ -5,17 +5,19 @@ import KitchenIcon from "@material-ui/icons/Kitchen";
 import PersonIcon from "@material-ui/icons/Person";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 //components
-import { BottomNavigation, BottomNavigationAction } from "@material-ui/core";
+import { BottomNavigation, BottomNavigationAction, Box } from "@material-ui/core";
 //style
-import "./BottomNavbar.sass";
+//import "./BottomNavbar.sass";
 
 const BottomNavbar = () => (
-  <BottomNavigation className="bottomNav">
-    <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
-    <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
-  </BottomNavigation>
+  <Box clone bgcolor="primary.main" bottom={0} component="footer" left={0} position="fixed" width={1} zIndex="appBar">
+    <BottomNavigation component="footer">
+      <BottomNavigationAction icon={<HomeIcon />} showLabel="false" />
+      <BottomNavigationAction icon={<KitchenIcon />} showLabel="false" />
+      <BottomNavigationAction icon={<FavoriteIcon />} showLabel="false" />
+      <BottomNavigationAction icon={<PersonIcon />} showLabel="false" />
+    </BottomNavigation>
+  </Box>
 );
 
 export default BottomNavbar;
