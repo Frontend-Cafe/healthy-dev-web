@@ -4,17 +4,17 @@ import { createMuiTheme } from "@material-ui/core/styles";
 export const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#C4C4C4",
-      dark: "#212121",
+      main: "#26B0A1",
     },
     secondary: {
       main: "#dfe6e9",
     },
-    contrastThreshold: 3,
-    tonalOffset: 0.2,
   },
-  reset: {
-    padding: 0,
-    margin: 0,
+  overrides: {
+    MuiGridListTileBar: {
+      root: {
+        backgroundColor: "rgba(0,0,0,0)",
+      },
+    },
   },
 });

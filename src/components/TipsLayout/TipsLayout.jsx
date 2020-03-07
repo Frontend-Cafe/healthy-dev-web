@@ -1,20 +1,19 @@
 import React from "react";
 //style
-import { useTheme } from "@material-ui/core/styles";
-import "./TipsLayout.sass";
+//import { useTheme } from "@material-ui/core/styles";
+//import "./TipsLayout.sass";
 //components
-import { Container } from "@material-ui/core";
+import { Container, Box } from "@material-ui/core";
 import Header from "components/Header/Header";
 import BottomNavbar from "components/BottomNavbar/BottomNavbar";
 
 const TipsLayout = ({ isSearchBarVisible = true, children, sectionTitle }) => {
-  const theme = useTheme();
   return (
-    <Container className="container" color="primary-dark">
+    <Container disableGutters maxWidth="md">
       <Header isSearchBarVisible={isSearchBarVisible} sectionTitle={sectionTitle} />
-      <Container className="content" style={theme.reset}>
+      <Box component="main" mb={8} mt={23} width={1}>
         {children}
-      </Container>
+      </Box>
       <BottomNavbar />
     </Container>
   );
