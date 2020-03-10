@@ -2,16 +2,14 @@ import React from "react";
 // Hooks
 import { useFormik } from "formik";
 // Styles
-//import "./Register.scss";
+import "./Register.scss";
 // Components
-import { Typography, Button, Grid, Container } from "@material-ui/core";
-
-import FormikTextField from "../../components/FormikTextField/FormikTextField";
+import { Typography, Button, Grid, TextField, Container, FormHelperText } from "@material-ui/core";
 
 import RegisterSchema from "./RegisterSchema";
 
 const Register = () => {
-  const { handleSubmit, isSubmitting, handleBlur, handleChange, errors, touched, values } = useFormik({
+  const formik = useFormik({
     initialValues: {
       name: "",
       email: "",
@@ -25,52 +23,75 @@ const Register = () => {
   });
   return (
     <Container className="outer-container">
-      <form className="inner-container" onSubmit={handleSubmit}>
+      <form className="inner-container" onSubmit={formik.handleSubmit}>
         <Grid container alignItems="center" direction="row" justify="center">
           <Grid item className="title-item">
             <Typography variant="h1">Bienvenide a Healthy Dev</Typography>
           </Grid>
           <Grid item className="name-item">
-            <FormikTextField
-              errorState={errors.name}
-              handleBlur={handleBlur}
-              handleChange={handleChange}
-              id="Nombre"
-              name="Nombre"
+            <TextField
+              fullWidth
+              required
+              aria-describedby="Nombre"
+              error={formik.errors.name && formik.touched.name}
+              id="name"
+              name="name"
               placeholder="Nombre"
-              touchedState={touched.name}
-              valueState={values.name}
+              value={formik.values.name}
               variant="filled"
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
+            <FormHelperText error={formik.errors.name && formik.touched.name} variant="filled">
+              {formik.errors.name && formik.touched.name}
+            </FormHelperText>
           </Grid>
           <Grid item className="email-item">
-            <FormikTextField
-              errorState={errors.email}
-              handleBlur={handleBlur}
-              handleChange={handleChange}
-              id="Email"
-              name="Email"
+            <TextField
+              fullWidth
+              required
+              aria-describedby="Email"
+              error={formik.errors.email && formik.touched.email}
+              id="email"
+              name="email"
               placeholder="Email"
-              touchedState={touched.email}
-              valueState={values.email}
+              value={formik.values.email}
               variant="filled"
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
+            <FormHelperText error={formik.errors.email && formik.touched.email} variant="filled">
+              {formik.errors.email && formik.touched.email}
+            </FormHelperText>
           </Grid>
           <Grid item className="password-item">
-            <FormikTextField
-              errorState={errors.password}
-              handleBlur={handleBlur}
-              handleChange={handleChange}
-              id="Password"
-              name="Password"
-              placeholder="Password"
-              touchedState={touched.password}
-              valueState={values.password}
+            <TextField
+              fullWidth
+              required
+              aria-describedby="Crear Password"
+              error={formik.errors.password && formik.touched.password}
+              id="password"
+              name="password"
+              placeholder="Crear Password"
+              type="password"
+              value={formik.values.password}
               variant="filled"
+              onBlur={formik.handleBlur}
+              onChange={formik.handleChange}
             />
+            <FormHelperText error={formik.errors.password && formik.touched.password} variant="filled">
+              {formik.errors.password && formik.touched.password}
+            </FormHelperText>
           </Grid>
           <Grid item>
-            <Button fullWidth className="button" disabled={isSubmitting} type="submit" variant="outlined">
+            <Button
+              fullWidth
+              className="button"
+              color="secondary"
+              disabled={formik.isSubmitting}
+              type="submit"
+              variant="outlined"
+            >
               Crear cuenta
             </Button>
           </Grid>
