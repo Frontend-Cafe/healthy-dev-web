@@ -2,7 +2,7 @@ import React from "react";
 // Hooks
 import { useFormik } from "formik";
 // Styles
-import "./Register.scss";
+// import "./Register.scss";
 // Components
 import { Typography, Button, Grid, TextField, Container, FormHelperText } from "@material-ui/core";
 
@@ -24,9 +24,9 @@ const Register = () => {
   return (
     <Container className="outer-container">
       <form className="inner-container" onSubmit={formik.handleSubmit}>
-        <Grid container alignItems="center" direction="row" justify="center">
+        <Grid container alignItems="center" direction="column" justify="center">
           <Grid item className="title-item">
-            <Typography variant="h1">Bienvenide a Healthy Dev</Typography>
+            <Typography variant="h4">Bienvenide a Healthy Dev</Typography>
           </Grid>
           <Grid item className="name-item">
             <TextField
@@ -84,14 +84,7 @@ const Register = () => {
             </FormHelperText>
           </Grid>
           <Grid item>
-            <Button
-              fullWidth
-              className="button"
-              color="secondary"
-              disabled={formik.isSubmitting}
-              type="submit"
-              variant="outlined"
-            >
+            <Button fullWidth className="button" disabled={formik.isSubmitting} type="submit" variant="outlined">
               Crear cuenta
             </Button>
           </Grid>
